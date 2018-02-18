@@ -1,10 +1,10 @@
 # Listy zadań
-* [Lista 0](https://pwr-piisw.github.io/materialy/listy/2017/lista_0.pdf)
-* [Lista 1](https://pwr-piisw.github.io/materialy/listy/2017/lista_1.pdf)
-* [Lista 2](https://pwr-piisw.github.io/materialy/listy/2017/lista_2.pdf)
-* [Lista 3](https://pwr-piisw.github.io/materialy/listy/2017/lista_3.pdf)
-* [Lista 4](https://pwr-piisw.github.io/materialy/listy/2017/lista_4.pdf)
-* [Lista 5](https://pwr-piisw.github.io/materialy/listy/2017/lista_5.pdf)
+* [Lista 0](https://pwr-piisw.github.io/materialy/listy/2017/lista_0.pdf) - 2018-02-20
+* [Lista 1](https://pwr-piisw.github.io/materialy/listy/2017/lista_1.pdf) - 2018-02-27
+* [Lista 2](https://pwr-piisw.github.io/materialy/listy/2017/lista_2.pdf) - 2018-03-06
+* [Lista 3](https://pwr-piisw.github.io/materialy/listy/2017/lista_3.pdf) - 2018-03-13
+* [Lista 4](https://pwr-piisw.github.io/materialy/listy/2017/lista_4.pdf) - 2018-03-20
+* [Lista 5](https://pwr-piisw.github.io/materialy/listy/2017/lista_5.pdf) - 2018-03-27
 
 # Dodatkowe materiały do zajęć
 * [Zajęcia laboratoryjne.pdf](https://pwr-piisw.github.io/materialy/Zaj%C4%99cia%20laboratoryjne.pdf)
