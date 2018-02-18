@@ -1,5 +1,5 @@
 # Informacje ogólne
-[Zasady zaliczenia](https://pwr-piisw.github.io/materialy/laboratorium.pdf)
+[Zasady zaliczenia zajęć](https://pwr-piisw.github.io/materialy/laboratorium.pdf)
 
 # Listy zadań
 * [Lista 0](https://pwr-piisw.github.io/materialy/listy/2017/lista_0.pdf) - 2018-02-20
