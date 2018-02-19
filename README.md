@@ -9,6 +9,6 @@
 * [Lista 4](https://pwr-piisw.github.io/materialy/listy/2017/lista_4.pdf) - 2018-03-20
 * [Lista 5](https://pwr-piisw.github.io/materialy/listy/2017/lista_5.pdf) - 2018-03-27
 
-# Dodatkowe materiały do zajęć
+# Dodatkowe materiały
 * [Angular cheat sheet.pdf](https://pwr-piisw.github.io/materialy/Angular%20cheat%20sheet.pdf)
 * [GIT cheat sheet.pdf](https://pwr-piisw.github.io/materialy/GIT%20Cheat%20Sheet.pdf)
