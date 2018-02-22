@@ -2,7 +2,7 @@
 [Zasady zaliczenia zajęć](https://pwr-piisw.github.io/materialy/laboratorium.pdf)
 
 # Listy zadań
-*Uwaga: daty zaliczenia określono dla laboratoriów wtorkowych. W przypadku zajęć piątkowych należy do dodać 3 dni.*
+*Uwaga: daty zaliczenia określono dla laboratoriów wtorkowych. W przypadku zajęć piątkowych należy do poniższej daty dodać 3 dni.*
 
 * [Lista 0](https://pwr-piisw.github.io/materialy/listy/2017/lista_0.pdf) - 2018-02-20
 * [Lista 1](https://pwr-piisw.github.io/materialy/listy/2017/lista_1.pdf) - 2018-02-27 (zaliczenie do 2018-03-06)
