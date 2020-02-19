@@ -4,15 +4,14 @@
 \usepackage[a4paper, left=2.0cm, right=2.0cm, top=2.0cm, bottom=2.0cm]{geometry}
 \usepackage{hyperref}
 
-\title{PIISW, W08, IO, 2018/2019, semestr letni\\Lista zadań nr 1}
-\author{mgr inż. Maciej Małecki\\ \small maciej.malecki@pwr.edu.pl
-    \and mgr inż. Marcin Stachowiak\\ \small marcin.stachowiak@pwr.edu.pl}
+\title{PIISW, W08, IO, 2019/2020, semestr letni\\Lista zadań nr 1}
+\author{mgr inż. Maciej Małecki\\ \small maciej.malecki@pwr.edu.pl}
 
 \begin{document}
     \maketitle
 
     \section*{Wprowadzenie}
-        Do realizacji zadań z~tej listy niezbędne jest wykonanie zadań z~listy~0, w~szczególności zaś konieczne jest posiadanie konta edukacyjnego na portalach \texttt{github.com} oraz \texttt{travis-ci.com}.
+        Do realizacji zadań z~tej listy niezbędne jest wykonanie zadań z~listy~0, w~szczególności zaś konieczne jest posiadanie konta na portalach \texttt{github.com} oraz \texttt{circleci.com}.
 
         Rozwiązanie każdego z~zadań musi znaleźć się na prywatnym repozytorium studenta (repozytorium takie tworzone jest w~ramach zadania~\ref{exc:git-repo}).
 
@@ -65,14 +64,14 @@
         \item\label{exc:travis-ci}
             (2 pkt) Konfiguracja środowiska \textit{continuous integration}.
             \begin{enumerate}
-              \item Utwórz konto w~serwisie \texttt{travis-ci.com} oraz skojarz je ze swoim kontem edukacyjnym w~serwisie \texttt{github.com}.
+              \item Utwórz konto w~serwisie \texttt{circleci.com} oraz skojarz je ze swoim kontem w~serwisie \texttt{github.com}.
               \item Aktywuj środowisko CI dla repozytorium utworzonego w~zadaniu~\ref{exc:git-repo}, uruchom ręcznie pierwszy \textit{build}.
               \item Wprowadź kolejną zmianę do pliku \texttt{README.adoc}, zatwierdź i~\textit{wypushuj}, sprawdź czy kolejny \textit{build} uruchamia się automatycznie.
-              \item Zaktualizuj link do grafiki reprezentującej status \textit{builda} tak, aby wskazywał na właściwe środowisko w~ramach \texttt{travis-ci}.
+              \item Zaktualizuj link do grafiki reprezentującej status \textit{builda} tak, aby wskazywał na właściwe środowisko w~ramach \texttt{CircleCI}.
             \end{enumerate}
 
         \item\label{exc:maven}
-            (4 pkt) W~systemie obsługującym bibliotekę istnieją trzy komponenty: komponent zarządzający użytkownikami, komponent odpowiedzialny za książki oraz komponent w~którym znajduje się logika i~reguly biznesowe procesów wypożyczania książek. Komponent wypożyczania zalezy od komponentu obsługi książek, a~ten z~kolei zależy od komponentu obsługi użytkownika.
+            (4 pkt) W~systemie obsługującym bibliotekę istnieją trzy komponenty: komponent zarządzający użytkownikami, komponent odpowiedzialny za książki oraz komponent w~którym znajduje się logika i~reguly biznesowe procesów wypożyczania książek. Komponent wypożyczania zależy od komponentu obsługi książek, a~ten z~kolei zależy od komponentu obsługi użytkownika.
             \begin{enumerate}
                 \item\label{exc:maven-directory} Utwórz podkatalog w~repozytorium, pozostałe punkty tego zadania należy wykonać w~tym katalogu lub jego podkatalogach.
                 \item Przygotuj komendy Maven’owe po których uruchomieniu powstanie trójmodułowy projekt zgodny z~ww. zależnościami.
