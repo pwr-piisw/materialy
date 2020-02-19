@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage[a4paper, left=2.0cm, right=2.0cm, top=2.0cm, bottom=2.0cm]{geometry}
+\usepackage{hyperref}
+\usepackage{skull}
+
+\title{PIISW, W08, IO, 2018/2019, semestr letni\\Lista zadań nr 5}
+\author{Maciej Małecki\\ \small maciej.malecki@pwr.edu.pl}
+
+\begin{document}
+    \maketitle
+
+    \section*{Wprowadzenie}
+        \begin{enumerate}
+            \item Zadania z~poniższej listy należy zrealizować w~ramach prywatnego repozytorium założonego dla listy nr.~1.
+            \item Projekt z~repozytorium należy co najmniej raz zbudować wykorzystując do tego komendę \texttt{mvnw install}. Pozwoli to na zainstalowanie niezbędnych narzędzi takich jak \texttt{node}, \texttt{npm}, \texttt{yarn} oraz \texttt{Angular CLI} oraz zbudowanie części \textit{backendowej} aplikacji.
+            \item
+                Do pracy z~\textit{frontendem} konieczne jest uruchomienie części \textit{backendowej}:
+                \begin{verbatim}
+java -jar target/ng-boot-project-seed-0.0.1-SNAPSHOT.jar
+                \end{verbatim}
+                Jeśli z~jakiegoś powodu domyślny port \texttt{8080} jest zajęty, można zmienić tę wartość (np. na~\texttt{8081}) modyfikując plik \texttt{application.properties}.
+            \item Interakcja z Angular CLI wymaga użycia konsoli/terminala. W~ramach terminala należy przejść do katalogu głównego sklonowanego repozytorium oraz uruchomić skrypt \texttt{front\_cli.bat}. Użytkownicy systemów Linux lub OS~X powinni wykonać komendę: \texttt{source front\_\allowbreak cli}.
+                Wszelkie komendy \texttt{Angular CLI} należy wydawać będąc w~podkatalogu \texttt{src/main/client}.
+            \item Wszystkie zadania powinny być zrealizowane w~ramach prywatnego repozytorium na GitHub. Repozytorium musi być zintegrowane z~Travis~CI, w~momencie oddawania list status CI powinien być \textbf{zielony}.
+            \item Należy dołożyć wszelkich starań, aby tworzona aplikacja była właściwie przetestowana przy pomocy testów jednostkowych (zarówno strona \textit{backend} jak i~\textit{frontend}.
+            \item Przy realizacji zadań pomocne będą materiały z~wykładu (\href{https://pwr-piisw.github.io/wyklady/angular_1.html#/}{angular}, \href{https://pwr-piisw.github.io/wyklady/reactive.html#/}{programowanie reaktywne}) oraz przykładowe repozytorium (\href{https://github.com/pwr-piisw/angular-wyklad}{angular-wykład}) - warto przeanalizować całą historię zmian.
+            \item Ilość wszystkich punktów możliwych do uzyskania z~tej listy jest większa niż jest to konieczne do uzyskania oceny $5,0$. Zadania lub punkty oznaczone symbolem $\skull$ należy potraktować jako w~całości lub w~części nieobowiązkowe (odpowiednio). Zadania \ref{exc:yarn} oraz \ref{exc:backend} należy zrealizować co najmniej w~takim stopniu, który umożliwi realizację innych zadań (zadania nie są niezależne od siebie).
+        \end{enumerate}
+
+    \section*{Oceny}
+    \begin{tabular}{|l|c|c|c|c|c|c|c|}
+        \hline
+        Punkty: & $<8$ & $8-9$ & $10$ & $11-12$ & $13$ & $14-15$ & $>15$ \\
+        \hline
+        Ocena:  & $2,0$ & $3,0$ & $3,5$ & $4,0$ & $4,5$ & $5,0$ & $5,5$ \\
+        \hline
+    \end{tabular}
+
+    \section*{Zadania}
+    \begin{enumerate}
+        \item\label{exc:yarn}
+            (4 pkt) Zarządzanie zależnościami przy użyciu \texttt{yarn}.
+            \begin{enumerate}
+                \item Przeanalizuj zawartość pliku \texttt{src/main/client/package.json}, sekcje: \texttt{de\-pen\-den\-cies} oraz \texttt{devDe\-pen\-den\-cies} a~także pliku \texttt{yarn.lock}. Korzystając ze strony \url{https://semver.npmjs.com/} sprawdź, jak interpretowany jest numer wersji rozpoczynający się od znaku \texttt{\textasciitilde} oraz od \texttt{\textasciicircum}, a~jak interpretowany jest numer wersji podany ,,wprost''.
+                \item Korzystając z~odpowiedniej formy komendy \texttt{yarn} zmień wszystkie wersje referowane przy pomocy \texttt{\textasciicircum} na takie, które są referowane przez \texttt{\textasciitilde}.
+                \item Korzystając z~odpowiedniej formy komendy \texttt{yarn} zmigruj projekt do Angulara 5.2.0 określając przy okazji, że projekt powinien automatycznie otrzymywać poprawki błędów dla tej biblioteki\footnote{Zwróć uwagę, że Angular to tak na prawdę kilka/kilkanaście bibliotek referowanych niezależnie}. Korzystając z~komendy \texttt{git} przeanalizuj zmiany, jakie pojawiły się w~plikach \texttt{package.json} oraz \texttt{yarn.lock}. Czy potrafisz określić znaczenie pliku \texttt{yarn.lock}?
+				\item $\skull$ (dodatkowe 2 pkt) W~analogiczny sposób zmigruj projekt do Angulara 7.x.x.
+                \item Po zmianach aplikacja powinna być przetestowana lokalnie oraz na \texttt{travis-ci}.
+            \end{enumerate}
+
+        \item\label{exc:backend}
+            (5 pkt) Twórca aplikacji \textit{Bookstore} zawartej w~repozytorium \href{https://github.com/pwr-piisw/oasp4js-ng-boot-project-seed}{oasp4js-ng-boot-project-seed} nie dokończył integracji z~backendowym serwisem \texttt{Book\-Rest}\footnote{Zobacz: \texttt{src/main/java/com/capgemini/books/rest/BookRest.java}}. Większość integrakcji z~częścią serwerową jest zasymulowana całkowicie po stronie klienta.
+            \begin{enumerate}
+                \item Aktualna implementacja serwisu frontendowego (\texttt{book.service.ts}) korzysta z~przestarzałego API klienta Http. Użyj nowego API opublikowanego w~module \texttt{@angular/\-common/\-http}. Pamiętaj o~refactoringu testów (\texttt{*.spec.ts}).
+                \item Zintegruj istniejący interfejs użytkownika dla komponentów \texttt{book-\allowbreak de\-tails} oraz \texttt{book-\allowbreak over-\allowbreak view} w~ten sposób, aby użyte były operacje REST dla wczytania listy książek, wczytania pojedynczej książki, dodania nowej książki oraz aktualizacji istniejącej książki.
+                \item Dodaj do interfejsu użytkownika możliwość usuwania wybranej książki.
+            \end{enumerate}
+
+        \item\label{exc:module}
+            (5 pkt) Stwórz nową funkcjonalność w~aplikacji \textit{Bookstore} który pozwala na zarządzanie użytkownikami. Napisz testy jednostkowe.
+            \begin{enumerate}
+                \item Funkcjonalność powinna być zrealizowana jako nowy moduł (\textit{ng-module}).
+                \item Funkcjonalność powinna składać się z~dwóch widoków: listy użytkowników oraz edytora szczegółów użytkownika.
+                \item Funkcjonalność powinna realizować operacje \texttt{findAll}, \texttt{save} oraz \texttt{delete}.
+                \item Funkcjonalność może być zamockowana całkowicie po stronie frontendu (brak implementacji serwisu REST).
+                \item $\skull$ (dodatkowe 2~pkt) : stwórz część backendową dla użytkowników (na poziomie analogicznym do modułu książek) oraz zintegruj ją z~frontendem.
+            \end{enumerate}
+        \item\label{exc:component}
+            (6 pkt) $\skull$ Napisz uniwersalny komponent listy elementów.
+            \begin{enumerate}
+              \item Komponent powinien umożliwiać pracę z~dowolnymi tablicami elementów (w~tym tablicami obiektów).
+              \item Komponent powinien umożliwiać zdefiniowanie nagłówka listy (nazw każdej z kolumn).
+              \item Po najechaniu kursorem myszy na dowolny wiersz nie będący nagłówkiem, cały wiersz powinien zostać wyróżniony innym kolorem (podświetlony).
+              \item Po kliknięciu na dowolnym wierszu nie będącym nagłówkiem komponent powinien generować wstawiać wartość wybranego obiektu do asynchronicznego strumienia danych (\textit{Observable}).
+              \item Użyj tego komponentu w~istniejących widokach listy użytkowników oraz listy książek oraz zintegruj z~istniejącą funkcjonalnością. Zaktualizuj odpowiednio testy jednostkowe.
+            \end{enumerate}
+    \end{enumerate}
+\end{document}
+
