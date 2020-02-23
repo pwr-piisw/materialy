@@ -10,7 +10,7 @@
 * [Lista 4](https://github.com/pwr-piisw/materialy/releases/download/{{ site.release-tag }}/lista_4.pdf) - 2019-03-30 (zaliczenie do 2019-04-06)
 * Lista 5 (wkrótce)
 
-# (https://github.com/pwr-piisw/materialy/releases/download/{{ site.release-tag }}/lista_5.pdf) - 2019-04-06 (zaliczenie do 2019-04-20)
+<!-- (https://github.com/pwr-piisw/materialy/releases/download/{{ site.release-tag }}/lista_5.pdf) - 2019-04-06 (zaliczenie do 2019-04-20) -->
 
 # Dodatkowe materiały
 * [Angular cheat sheet.pdf](https://pwr-piisw.github.io/materialy/Angular%20cheat%20sheet.pdf)
