@@ -6,11 +6,8 @@
 
 \title{Projekt i implementacja systemów webowych\\
     \large Zasady zaliczenia zajęć laboratoryjnych\\
-    \large W08, IO, 2018/2019, semestr letni}
-\author{mgr inż. Maciej Małecki\\ \small maciej.malecki@pwr.edu.pl
-    \and mgr Joanna Krawczyk\\ \small joanna.krawczyk@pwr.edu.pl
-    \and mgr inż. Adrian Derda\\ \small adrian.derda@pwr.edu.pl
-    \and mgr inż. Adam Puchalski\\ \small adam.puchalski@pwr.edu.pl}
+    \large W08, IO, 2019/2020, semestr letni}
+\author{mgr inż. Maciej Małecki\\ \small maciej.malecki@pwr.edu.pl}
 
 \begin{document}
     \maketitle
@@ -19,10 +16,9 @@
         Zajęcia laboratoryjne są prowadzone bez przerwy przez 1,5 godziny.
         \paragraph*{Konsultacje}
         \begin{itemize}
-            \item Maciej Małecki: TBD
-            \item Joanna Krawczyk: TBD
-            \item Adrian Derda: TBD
-            \item Adam Puchalski: TBD
+            \item Maciej Małecki: Poniedziałek, 8:00--9:00, D-2, s.302a
+			\item ...
+			\item ...
         \end{itemize}
     \section*{Ocena}
         \begin{itemize}
@@ -30,17 +26,17 @@
             \item Zaliczenie na ocenę 5,5~(cel) może uzyskać student, który wykaże się wiedzą lub umiejętnościami znacznie wykraczającymi poza zakres przewidziany w programie nauczania.
             \item Indywidualnej ocenie podlega 5 list zadań (realizowanych na zajęciach 2--6) oraz 3 etapy projektowe realizowane podczas drugiej częsci semestru.
             \item Na każdej z~list zadań określona jest skala punktowa, na podstawie której wystawiana jest ocena.
-            \item Ocena końcowa jest średnią ważoną ocen cząstkowych. Oceny za listy zadań mają wagę 1, oceny za etapy projektu mają wagę 2.
+            \item Ocena końcowa jest średnią ważoną ocen cząstkowych. Oceny za listy zadań mają wagę~1, oceny za etapy projektu mają wagę~2.
         \end{itemize}
     \section*{Wymagania}
         \begin{itemize}
             \item Na zajęcia należy przychodzić punktualnie.
-            \item Uczestnictwo w zajęciach laboratoryjnych jest obowiązkowe: dopuszcza się jedną nieobecność nieusprawiedliwioną i jedną nieobecność usprawiedliwioną w semestrze.
+            \item Uczestnictwo w zajęciach laboratoryjnych jest obowiązkowe: dopuszcza się jedną nieobecność nieusprawiedliwioną i~jedną nieobecność usprawiedliwioną w~semestrze.
             \item Materiał z~zajęć, na których student nie był obecny, musi być opanowany a~zadania wykonane.
-            \item Na zajęcia należy przygotować się poprzez zapoznanie się z materiałem z~wykładów i~z~wcześniej zapowiedzianymi tematami zajęć.
+            \item Na zajęcia należy przygotować się poprzez zapoznanie się z~materiałem z~wykładów i~z~wcześniej zapowiedzianymi tematami zajęć.
             \item Uwagi ogólne dotyczące zaliczeń:
                 \begin{itemize}
-                    \item W~tabeli~\ref{harmonogram} określono termin zaliczeń dla każdej z~list zadań oraz każdego etapu projektu. Termin zaliczenia został określony dla zajęć wtorkowych, w~przypadku zajęć piątkowych należy do daty dodać 3~dni.
+                    \item W~tabeli~\ref{harmonogram} określono termin zaliczeń dla każdej z~list zadań oraz każdego etapu projektu.
                     \item Zadań lub etapów projektu nie można oddawać na konsultacjach.
                     \item Zadania lub etap projektu oddane na następnych zajęciach po obowiązującym terminie są oceniane najwyżej na ocenę dostateczną~(3), materiał oddany po tym czasie oceniany jest na ocenę~2~(ndst).
                 \end{itemize}
@@ -55,13 +51,13 @@
                 \begin{itemize}
                     \item Na zajęciach 7-mych studenci tworzą 2--3 osobowe grupy projektowe, w~ramach których realizować będą projekt.
                     \item Każda grupa projektowa powinna zgłosić prowadzącemu temat projektu na 7-mych zajęciach. Temat może być zgłoszony z~listy umieszczonej na końcu tego dokumentu, może być to także własny projekt pod warunkiem przedstawienia adekwatnego opisu.
-                    \item Każdy zespół projektowy zobowiązany jest do utworzenia prywatnego repozytorium projektowego w~ramach organizacji \texttt{pwr-piisw}. Prowadzącemu zajęcia należy nadać prawa zapisu i~odczytu do tego repozytorium.
+                    \item Każdy zespół projektowy zobowiązany jest do utworzenia prywatnego repozytorium projektowego \texttt{github.com}. Prowadzącemu zajęcia należy nadać prawa zapisu i~odczytu do tego repozytorium.
                     \item Wszyscy członkowie zespołu zobowiązani są do wprowadzania zmian bezpośrednio do prywatnego repozytorium zespołu.
-                    \item Każdy członek zespołu zobowiązany jest utrzymywać repozytorium w~stanie “zielonym” - CI po zmianach powinno być zielone, w przypadku błędów należy je niezwłocznie usuwać.
+                    \item Każdy członek zespołu zobowiązany jest utrzymywać repozytorium w~stanie “zielonym” - CI po zmianach powinno być zielone, w przypadku wystąpienia błędów należy je niezwłocznie usuwać.
                     \item Podczas oddawania danego etapu zadania prowadzący sprawdza stan CI - niestabilne CI może być przyczyną niezaliczenia etapu.
-                    \item Zmiany w repozytorium (kodzie aplikacji) powinny być odpowiednio i~czytelnie komentowane.
+                    \item Zmiany w repozytorium (kodzie aplikacji) powinny być odpowiednio i~czytelnie komentowane (ang. \textit{commit message}).
                     \item W~przypadku każdego z~trzech etapów zaliczeniowych należy utworzyć w~repozytorium \textit{tag} o~nazwach odpowiednio: \texttt{etap1}, \texttt{etap2} oraz \texttt{etap3}.
-                    \item Zaimplementowany system powinien dać się uruchomić na dowolnym komputerze (laptopie) wyposażonym w~system Microsoft Windows.
+                    \item Zaimplementowany system powinien dać się uruchomić na dowolnym komputerze wyposażonym w~system Microsoft Windows.
                 \end{itemize}
         \end{itemize}
 
@@ -81,29 +77,29 @@
             \hline
             \textbf{Lp}&\textbf{Data} &\textbf{Temat} &\textbf{Termin zaliczenia}\\
             \hline
-            1   & 2019-02-28& Zajęcia organizacyjne. Konfiguracja       &\\
+            1   & 2020-03-02& Zajęcia organizacyjne. Konfiguracja       &\\
                 &           & środowiska roboczego.                     &\\
-            2   & 2019-03-07& Środowisko deweloperskie.                 &\\
-            3   & 2019-03-14& HTML, CSS i Javascript.                   & Lista 1\\
-            4   & 2019-03-21& Tworzenie backendu - serwisy Restful,     & Lista 2\\
+            2   & 2020-03-09& Środowisko deweloperskie.                 &\\
+            3   & 2020-03-16& HTML, CSS i Javascript.                   & Lista 1\\
+            4   & 2020-03-23& Tworzenie backendu - serwisy Restful,     & Lista 2\\
                 &           & testowanie backendu.                      &\\
-            5   & 2019-03-28& Tworzenie backendu - data persistence,    & Lista 3\\
+            5   & 2020-03-30& Tworzenie backendu - data persistence,    & Lista 3\\
                 &           & mockowanie danych.                        &\\
-            6   & 2019-04-04& Tworzenie aplikacji Angular, testowanie   & Lista 4\\
+            6   & 2020-04-06& Tworzenie aplikacji Angular, testowanie   & Lista 4\\
                 &           & kodu frontendu.                           &\\
-            7   & 2019-04-11& Podział na grupy projektowe, wybór        & Lista 5\\
+            7   & 2020-04-20& Podział na grupy projektowe, wybór        & Lista 5\\
                 &           & i~akceptacja tematu projektu.             &\\
-            8   & 2019-04-15& Projekt -- frontend                       &\\
-            9   & 2019-04-25& Projekt -- frontend                       &\\
-            10  & 2019-05-09& Projekt -- frontend                       & Zaliczenie części \\
+            8   & 2020-04-27& Projekt -- frontend                       &\\
+            9   & 2020-05-04& Projekt -- frontend                       &\\
+            10  & 2020-05-11& Projekt -- frontend                       & Zaliczenie części \\
                 &           &                                           & frontendowej.\\
-            11  & 2019-05-16& Projekt -- backend i integracja           &\\
-            12  & 2019-05-23& Projekt -- backend i integracja           & Zaliczenie części\\
+            11  & 2020-05-18& Projekt -- backend i integracja           &\\
+            12  & 2020-05-25& Projekt -- backend i integracja           & Zaliczenie części\\
                 &           &                                           & backendowej.\\
-            13  & 2019-05-30& Projekt -- data persistence               &\\
-            14  & 2019-06-06& Projekt -- data persistence               & Zaliczenie kompletnej\\
+            13  & 2020-06-01& Projekt -- data persistence               &\\
+            14  & 2020-06-08& Projekt -- data persistence               & Zaliczenie kompletnej\\
                 &           &                                           & aplikacji.\\
-            15  & 2019-06-13& Zaliczenie końcowe. Wystawienie ocen.     & Zaliczenie -- 2-gi termin.\\
+            15  & 2020-06-15& Zaliczenie końcowe. Wystawienie ocen.     & Zaliczenie -- 2-gi termin.\\
             \hline
         \end{tabular}
         \caption{Harmonogram zajęć laboratoryjnych}
@@ -112,7 +108,7 @@
 
     \section*{Propozycje tematów projektów}
 
-        \noindent Istnieje możliwość  propozycji własnych tematów projektów związanych z przedmiotem ,,Projekt i~implementacja systemów webowych''. Informację należy podać na~7-mych zajęciach (2019-04-11) i~uzyskać akceptację prowadzącego.
+        \noindent Istnieje możliwość  propozycji własnych tematów projektów związanych z przedmiotem ,,Projekt i~implementacja systemów webowych''. Informację należy podać na~7-mych zajęciach (2020-04-20) i~uzyskać akceptację prowadzącego.
 
         Zakres każdego z~projektów powinien obejmować realizację dwóch ekranów aplikacji webowej, interfejsu REST łączącego frontend i~backend, dodatkowego interfejsu REST przeznaczonego do integracji z~zewnętrznym systemem oraz warstwę utrwalania danych zrealizowaną np w~oparciu o~relacyjną bazę danych oraz mapowanie JPA.
 

@@ -2,7 +2,7 @@ version: 2
 jobs:
         build:
           docker:
-            - image: texlive/texlive-full
+            - image: texlive/texlive-full:2017
 
           working_directory: ~/repo
 
@@ -40,6 +40,7 @@ workflows:
                     branches:
                         only:
                             - master
+                            - develop
                     tags:
                         only:
                             - /^\d\d\d\d\.\d\d\.\d\d$/
@@ -48,6 +49,7 @@ workflows:
                     branches:
                         ignore:
                             - master
+                            - develop
                     tags:
                         only:
                             - /^\d\d\d\d\.\d\d\.\d\d$/
