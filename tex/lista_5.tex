@@ -16,7 +16,6 @@
             \item W~celu realizacji listy należy założyć nowe prywatne repozytorium oraz zainicjować je zawartością z~\href{https://github.com/pwr-piisw/bookstore}{pwr-piisw/bookstore}.
 			\item Repozytorium musi być zintegrowane z~CIRCLE~CI, w~momencie oddawania list status CI powinien być \textbf{zielony}.
 			\item Plik \texttt{README.md} zawiera wszelkie informacje potrzebne do zbudowania i~uruchomienia aplikacji.
-            \item Należy dołożyć wszelkich starań, aby tworzona aplikacja była właściwie przetestowana przy pomocy testów jednostkowych (zarówno strona \textit{backend} jak i~\textit{frontend}.
         \end{enumerate}
 
     \section*{Oceny}
@@ -34,9 +33,9 @@
 		\item
 			(4 pkt) W~aplikacji Bookstore zaimplementowano widok listy książek (dostępny pod linkiem \texttt{ui/books}). Zaimplementuj widok szczegółowy dla książki.
 			\begin{enumerate}
-				\item W~serwisie BooksRestService zaimplementuj metodę findBookById i~zintegruj ją z~odpowiednim endpointem w~backendzie.
+				\item W~serwisie \texttt{BooksRestService} zaimplementuj metodę \texttt{findBookById} i~zintegruj ją z~odpowiednim endpointem w~backendzie.
 				\item Wygeneruj (przy użyciu Angular CLI) komponent \texttt{book-details} w~module \texttt{books}.
-				\item Dodaj routing \texttt{ui/books/\{bookId\}}, dane do widoku book-details wczytaj przy pomocy resolvera.
+				\item Dodaj routing \texttt{ui/books/\{bookId\}}, dane do widoku \texttt{book-details} wczytaj przy pomocy resolvera.
 				\item Dodaj nawigację między widokiem listy oraz szczegółów przy pomocy linków (strona nie może się przeładowywać).
 			\end{enumerate}
 			
@@ -46,23 +45,23 @@
 				\item Wyświetlanie recenzji powinno być zrealizowane przy użyciu osobnego komponentu (jeden komponent na recenzję).
 				\item Zaimplementuj osobny serwis do wczytywania recenzji.
 				\item Zintegruj wczytywanie recenzji z~widokiem widoku szczegółowego.
-				\item $\skull$(dodatkowo 2 pkt) Wczytywanie recenzji zrealizuj niezależnie od resolvera dla widoku book-details. Wyświetl ikonę spinnera na czas wyświetlania. Dodaj sztucznie opóźnienie do backendu, aby spinner wyświetlił się przez chwilę.
+				\item $\skull$(dodatkowo 2 pkt) Wczytywanie recenzji zrealizuj niezależnie od resolvera dla widoku \texttt{book-details}. Wyświetl ikonę spinnera na czas wyświetlania. Dodaj sztucznie opóźnienie do backendu, aby spinner wyświetlił się przez chwilę.
 			\end{enumerate}
 			
 		\item
 			(4 pkt) Dodaj możliwość dodawania nowej recenzji.
 			\begin{enumerate}
-				\item Stwórz komponent edycyjny z~polami formularza pozwalającymi na podanie autora, tytułu i~treści.
+				\item Stwórz komponent edycyjny z~polami formularza pozwalającymi na podanie autora, tytułu i~treści. Komponent edycyjny można zrealizować zarówno jako osobny widok lub też pokazać go na widoku \texttt{book-details}.
 				\item Wszystkie pola powinny być obowiązkowe - zaimplementuj odpowiednią walidację.
 				\item Rozszerz serwis dla recenzji o funkcjonalność zapisu recenzji.
-				\item Po zatwierdzeniu recenzji (przy użyciu np. przycisku Save) recenzja powinna być zapisana w backendzie a widok szczegółowy odpowiednio zaktualizowany.
+				\item Po zatwierdzeniu recenzji (przy użyciu np. przycisku ``Save'') recenzja powinna być zapisana w~backendzie, a~widok szczegółowy odpowiednio zaktualizowany.
 			\end{enumerate}
 			
 		\item
 			(4 pkt) Zaimplementuj usuwanie książki. 
 			\begin{enumerate}
-				\item Usunięcie książki powinno nastąpić po kliknięciu w dedykowany przycisk na widoku szczegółowym.
-				\item Wyświetl modalne okienko z potwierdzeniem, zanim usuniesz książkę.
+				\item Usunięcie książki powinno nastąpić po kliknięciu w~dedykowany przycisk na widoku szczegółowym.
+				\item Wyświetl modalne okienko z~potwierdzeniem, zanim usuniesz książkę.
 				\item $\skull$(dodatkowo 2 pkt) Usunięcie książki jest możliwe tylko wtedy, gdy nie istnieje żadna recenzja dla danej książki. Dokonaj odpowiedniego sprawdzenia przy pomocy osobnego zapytania RESTowego (poprzez serwis).
 				\item Po usunięciu książki aplikacja powinna przełączyć się na widok listy książek.
 			\end{enumerate}
