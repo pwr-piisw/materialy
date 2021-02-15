@@ -3,7 +3,7 @@
 
 == Informacje ogólne
 
-link:laboratorium.adoc[Zasady zaliczenia zajęć]
+xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 
 == Listy zadań
 
