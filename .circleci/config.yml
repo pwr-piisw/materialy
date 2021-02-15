@@ -2,7 +2,7 @@ version: 2
 jobs:
         build-tex:
           docker:
-            - image: texlive/texlive-full:2017
+            - image: flowfx/circleci-python-texlive:0.0.6
           working_directory: ~/repo
           environment:
             TERM: dumb
