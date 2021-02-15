@@ -1,5 +1,5 @@
 = Projekt i implementacja systemów webowych
-:release-tag: 2020.03.31
+:release-tag: 2021.02.15
 
 == Informacje ogólne
 
@@ -8,12 +8,12 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 == Listy zadań
 
 [horizontal]
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_0.pdf[Lista 0]:: 2020-03-02
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_1.pdf[Lista 1]:: 2020-03-09 (zaliczenie do 2020-03-16)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_2.pdf[Lista 2]:: 2020-03-16 (zaliczenie do 2020-03-23)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: 2020-03-23 (zaliczenie do 2020-03-30)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: 2020-03-30 (zaliczenie do 2020-04-06)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: 2020-04-06 (zaliczenie do 2020-04-20)
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_0.pdf[Lista 0]:: 2021-03-01
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_1.pdf[Lista 1]:: 2021-03-08 (zaliczenie do 2021-03-15)
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_2.pdf[Lista 2]:: 2021-03-15 (zaliczenie do 2021-03-22)
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-29)
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-12)
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: 2021-04-12 (zaliczenie do 2021-04-19)
 
 == Dodatkowe materiały
 
