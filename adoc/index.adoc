@@ -3,7 +3,7 @@
 
 == Informacje ogólne
 
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/laboratorium.pdf[Zasady zaliczenia zajęć]
+link:laboratorium.adoc[Zasady zaliczenia zajęć]
 
 == Listy zadań
 
