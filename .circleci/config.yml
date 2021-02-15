@@ -1,14 +1,11 @@
 version: 2
 jobs:
-        build:
+        build-tex:
           docker:
             - image: texlive/texlive-full:2017
-
           working_directory: ~/repo
-
           environment:
             TERM: dumb
-
           steps:
             - checkout
             - attach_workspace:
@@ -18,6 +15,21 @@ jobs:
                 root: .
                 paths:
                     - out
+
+        build-adoc:
+          docker:
+            - image: circleci/ruby:3.0.0
+          working_directory: ~/repo
+          steps:
+            - checkout
+            - run: bundle install
+            - run: bash ./build-adoc.sh
+            - deploy:
+                name: Deploy Release to GitHub
+                command: |
+                  if [ $CIRCLE_BRANCH == 'master' ]; then
+                    bash .circleci/setup-github.sh
+                  fi
 
         publish:
           docker:
@@ -35,7 +47,12 @@ workflows:
     version: 2
     build-and-deploy:
         jobs:
-            - build:
+            - build-adoc:
+                filters:
+                  branches:
+                    only:
+                      - master
+            - build-tex:
                 filters:
                     branches:
                         only:
@@ -54,5 +71,4 @@ workflows:
                         only:
                             - /^\d\d\d\d\.\d\d\.\d\d$/
                 requires: 
-                    - build
-                    
+                    - build-tex
