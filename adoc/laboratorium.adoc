@@ -1,6 +1,7 @@
 = Projekt i implementacja systemów webowych
 mgr inż. Maciej Małecki <maciej.malecki@pwr.edu.pl>
 :icons: font
+:table-caption: Tabela
 
 == Organizacja zajęć
 Zajęcia laboratoryjne są prowadzone bez przerwy przez 1,5 godziny.
@@ -22,27 +23,27 @@ Marcin Nowak:: Poniedziałek,
 == Wymagania
 
 * Na zajęcia należy przychodzić punktualnie.
-* Uczestnictwo w zajęciach laboratoryjnych jest obowiązkowe: dopuszcza się jedną nieobecność nieusprawiedliwioną i~jedną nieobecność usprawiedliwioną w~semestrze.
+* Uczestnictwo w zajęciach laboratoryjnych jest obowiązkowe: dopuszcza się jedną nieobecność nieusprawiedliwioną i jedną nieobecność usprawiedliwioną w semestrze.
 * Materiał z zajęć, na których student nie był obecny, musi być opanowany a zadania wykonane.
 * Na zajęcia należy przygotować się poprzez zapoznanie się z materiałem z wykładów i z wcześniej zapowiedzianymi tematami zajęć.
 * Uwagi ogólne dotyczące zaliczeń:
-** W~tabeli~\ref{harmonogram} określono termin zaliczeń dla każdej z list zadań oraz każdego etapu projektu.
-** Zadań lub etapów projektu nie można oddawać na konsultacjach.
+** W tabeli <<_harmonogram_zajęć_laboratoryjnych>> określono termin zaliczeń dla każdej z list zadań oraz każdego etapu projektu.
+//** Zadań lub etapów projektu nie można oddawać na konsultacjach.
 ** Zadania lub etap projektu oddane na następnych zajęciach po obowiązującym terminie są oceniane najwyżej na ocenę dostateczną (3), materiał oddany po tym czasie oceniany jest na ocenę 2{nbsp}(ndst).
 * Szczegółowe zasady dotyczące prac z listami zadań:
-** Na pierwszych pięciu zajęciach studenci rozwiązują \textbf{osobiście} listy zadań.
-** Lista zadań nr 0 realizowana na pierwszych zajęciach nie podlega ocenie.
+** Na pierwszych pięciu zajęciach studenci rozwiązują *osobiście* listy zadań.
+** Lista zadań nr{nbsp}0 realizowana na pierwszych zajęciach nie podlega ocenie.
 ** Listy zadań dostepne są pod następującym adresem: https://pwr-piisw.github.io/materialy/.
-** Na każdej liście zadań umieszczone są informacje, w jaki sposób rozwiązania zadań należy umieszczać w~repozytorium GitHub.
-* Szczegółowe zasady dotyczące pracy z~kodem podczas fazy projektowej:
-** Na zajęciach 7-mych studenci tworzą 2--3 osobowe grupy projektowe, w ramach których realizować będą projekt.
+** Na każdej liście zadań umieszczone są informacje, w jaki sposób rozwiązania zadań należy umieszczać w repozytorium GitHub.
+* Szczegółowe zasady dotyczące pracy z kodem podczas fazy projektowej:
+** Na zajęciach 7-mych studenci tworzą 3--4 osobowe grupy projektowe, w ramach których realizować będą projekt.
 ** Każda grupa projektowa powinna zgłosić prowadzącemu temat projektu na 7-mych zajęciach. Temat może być zgłoszony z listy umieszczonej na końcu tego dokumentu, może być to także własny projekt pod warunkiem przedstawienia adekwatnego opisu.
 ** Każdy zespół projektowy zobowiązany jest do utworzenia prywatnego repozytorium projektowego na portalu GitHub. Prowadzącemu zajęcia należy nadać prawa zapisu i odczytu do tego repozytorium.
 ** Wszyscy członkowie zespołu zobowiązani są do wprowadzania zmian bezpośrednio do prywatnego repozytorium zespołu.
 ** Każdy członek zespołu zobowiązany jest utrzymywać repozytorium w stanie “zielonym” - CI po zmianach powinno być zielone, w przypadku wystąpienia błędów należy je niezwłocznie usuwać.
 ** Podczas oddawania danego etapu zadania prowadzący sprawdza stan CI - niestabilne CI może być przyczyną niezaliczenia etapu.
 ** Zmiany w repozytorium (kodzie aplikacji) powinny być odpowiednio i czytelnie komentowane (ang. `commit message`).
-** W~przypadku każdego z trzech etapów zaliczeniowych należy utworzyć w repozytorium _tag_ o nazwach odpowiednio: `etap1`, `etap2` oraz `etap3`.
+** W przypadku każdego z trzech etapów zaliczeniowych należy utworzyć w repozytorium _tag_ o nazwach odpowiednio: `etap1`, `etap2` oraz `etap3`.
 ** Zaimplementowany system powinien dać się uruchomić na dowolnym komputerze wyposażonym w system Microsoft Windows.
 
 Wpływ na ocenę będzie miało:
@@ -54,90 +55,13 @@ Wpływ na ocenę będzie miało:
 
 WARNING: Kopiowanie prac innych studentów skutkuje automatycznie niezaliczeniem zajęć!
 
-.Harmonogram zajęć laboratoryjnych
-[cols="1,2,4,2"]
-|===
-|Lp|Data|Temat|Termin zaliczenia
+== Harmonogram zajęć laboratoryjnych
 
-|1
-|2021-03-01
-|Zajęcia organizacyjne. Konfiguracja środowiska roboczego.
-|
-
-|2
-|2021-03-08
-|Środowisko deweloperskie.
-|
-
-|3
-|2021-03-15
-|HTML, CSS i Javascript.
-|Lista 1
-
-|4
-|2021-03-22
-|Tworzenie backendu - serwisy Restful, testowanie backendu.
-|Lista 2
-
-|5
-|2021-03-29
-|Tworzenie backendu - data persistence, mockowanie danych.
-|Lista 3
-
-|6
-|2021-04-12
-|Tworzenie aplikacji Angular, testowanie kodu frontendu.
-|Lista 4
-
-|7
-|2021-04-19
-|Podział na grupy projektowe, wybór i akceptacja tematu projektu.
-|Lista 5
-
-|8
-|2021-04-26
-|Projekt -- frontend
-|
-
-|9
-|2021-05-10
-|Projekt -- frontend
-|
-
-|10
-|2021-05-17
-|Projekt -- frontend
-|Zaliczenie części frontendowej
-
-|11
-|2021-05-24
-|Projekt -- backend i integracja
-|
-
-|12
-|2021-05-31
-|Projekt -- backend i integracja
-|Zaliczenie części backendowej.
-
-|13
-|2021-06-07
-|Projekt -- data persistence
-|
-
-|14
-|2021-06-14
-|Projekt -- data persistence
-|Zaliczenie całości projektu.
-
-|15
-|2021-06-21
-|Zaliczenie końcowe. Wystawienie ocen.
-|Zaliczenie -- 2-gi termin.
-|===
+include::_harmonogram.adoc[]
 
 == Propozycje tematów projektów
 
-Istnieje możliwość  propozycji własnych tematów projektów związanych z przedmiotem "Projekt i implementacja systemów webowych". Informację należy podać na 7-mych zajęciach (2021-xx-xx) i uzyskać akceptację prowadzącego.
+Istnieje możliwość  propozycji własnych tematów projektów związanych z przedmiotem "Projekt i implementacja systemów webowych". Informację należy podać na 7-mych zajęciach (2021-04-19) i uzyskać akceptację prowadzącego.
 
 Zakres każdego z projektów powinien obejmować realizację dwóch ekranów aplikacji webowej, interfejsu REST łączącego frontend i backend, dodatkowego interfejsu REST przeznaczonego do integracji z zewnętrznym systemem oraz warstwę utrwalania danych zrealizowaną np w oparciu o relacyjną bazę danych oraz mapowanie JPA.
 

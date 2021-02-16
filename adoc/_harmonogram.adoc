@@ -1,0 +1,79 @@
+[cols="1,2,4,2"]
+|===
+|Lp|Data|Temat|Termin zaliczenia
+
+|1
+|2021-03-01
+|Zajęcia organizacyjne. Konfiguracja środowiska roboczego.
+|
+
+|2
+|2021-03-08
+|Środowisko deweloperskie.
+|
+
+|3
+|2021-03-15
+|HTML, CSS i Javascript.
+|Lista 1
+
+|4
+|2021-03-22
+|Tworzenie backendu - serwisy Restful, testowanie backendu.
+|Lista 2
+
+|5
+|2021-03-29
+|Tworzenie backendu - data persistence, mockowanie danych.
+|Lista 3
+
+|6
+|2021-04-12
+|Tworzenie aplikacji Angular, testowanie kodu frontendu.
+|Lista 4
+
+|7
+|2021-04-19
+|Podział na grupy projektowe, wybór i akceptacja tematu projektu.
+|Lista 5
+
+|8
+|2021-04-26
+|Projekt -- frontend
+|
+
+|9
+|2021-05-10
+|Projekt -- frontend
+|
+
+|10
+|2021-05-17
+|Projekt -- frontend
+|Zaliczenie części frontendowej
+
+|11
+|2021-05-24
+|Projekt -- backend i integracja
+|
+
+|12
+|2021-05-31
+|Projekt -- backend i integracja
+|Zaliczenie części backendowej.
+
+|13
+|2021-06-07
+|Projekt -- data persistence
+|
+
+|14
+|2021-06-14
+|Projekt -- data persistence
+|Zaliczenie całości projektu.
+
+|15
+|2021-06-21
+|Zaliczenie końcowe. Wystawienie ocen.
+|Zaliczenie -- 2-gi termin.
+|===
