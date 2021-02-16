@@ -12,14 +12,14 @@ image::https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/
 === Prezentacje
 
 [horizontal]
-Wykład 1:: https://pwr-piisw.github.io/wyklady/01_wprowadzenie.html#/[Wprowadzenie], https://pwr-piisw.github.io/wyklady/04_html.html#/[HTML5 i CSS3]
-Wykład 2:: https://pwr-piisw.github.io/wyklady/06_javascript.html#/[Javascript], https://pwr-piisw.github.io/wyklady/07_typescript.html#/[Typescript]
+Wykład 1:: https://pwr-piisw.github.io/wyklady/01_wprowadzenie.html#/[Wprowadzenie], https://pwr-piisw.github.io/wyklady/01_html_css.html#/[HTML5 i CSS3]
+Wykład 2:: https://pwr-piisw.github.io/wyklady/02_javascript.html#/[Javascript], https://pwr-piisw.github.io/wyklady/02_typescript.html#/[Typescript]
 Wykład 3:: Backend
 Wykład 4:: Mapowanie obiektowo relacyjne
-Wykład 5:: https://pwr-piisw.github.io/wyklady/angular_1.html#/[Angular]
-Wykład 6:: https://pwr-piisw.github.io/wyklady/reactive.html#/[Programowanie reaktywne]
+Wykład 5:: https://pwr-piisw.github.io/wyklady/05_angular.html#/[Angular]
+Wykład 6:: https://pwr-piisw.github.io/wyklady/06_reactive.html#/[Programowanie reaktywne]
 Wykład 7:: Cloud computing
-Wykład 8:: https://pwr-piisw.github.io/wyklady/frontend-testing.html#/[Testowanie aplikacji webowych]
+Wykład 8:: https://pwr-piisw.github.io/wyklady/08_frontend-testing.html#/[Testowanie aplikacji webowych]
 
 === Konspekty
 
