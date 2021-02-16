@@ -1,12 +1,15 @@
 = Wykład 5 - SPA, Angular
+
 Link do prezentacji: https://pwr-piisw.github.io/wyklady/angular_1.html#/
 
 == Wprowadzenie
 Framework Angular jest jednym z dwóch najważniejszych obecnie frameworków wykorzystywanych do implementacji aplikacji SPA w środowisku JavaScript. Jest to kompletne narzędzie w skład którego wchodzą także:
+
 * Angular Router do obsługi nawigacji międzykomponentowej oraz do interakcji z paskiem adresu.
 * RxJS - środowisko programowania reaktywnego.
 
 Dodatkowo, dla Angulara tworzone jest wiele bibliotek, m.in.:
+
 * Angular Material - zestaw widgetów.
 * NgBootstrap - implementacja biblioteki Bootstrap dla Angulara.
 * NgxBootstrap - inna implementacja biblioteki Bootstrap dla Angulara.
@@ -24,6 +27,7 @@ NVM jest narzędziem CLI z dobrą dokumentacją.
 
 === NPM
 Podstawowy menedżer pakietów dla Node JS. NPM jest domyślnie instalowany przez NVM (wersja NodeJS determinuje wersję NPM). NPM posiada następujące cechy:
+
 * umiejętność instalowania pakietów globalnie jak i lokalnie (w ramach projektu),
 * zależności lokalne instalowane są w katalogu `node_modules`,
 * zależności rozumiane są jako bezpośrednie i pośrednie,
@@ -34,6 +38,7 @@ Podstawowy menedżer pakietów dla Node JS. NPM jest domyślnie instalowany prze
 
 === Angular CLI
 Angular CLI to narzędzie wspomagające pracę z aplikacjami angularowymi. Angular CLI uruchamiamy komendą `ng`. Angular CLI wygodnie jest zainstalować z pomocą NPM jako globalną zależność. Angular CLI posiada następujące cechy:
+
 * generowanie nowej aplikacji Angulara,
 * generowanie nowych elementów aplikacji Angulara jak moduł, komponent, serwis,
 * uruchamianie aplikacji w trybie developerskim: `ng serve`,
@@ -51,6 +56,7 @@ Klient Angularowy oraz Backend zrealizowane są jako dwa moduły Mavena. Znajduj
 Backend zrealizowano jako bardzo prostą aplikację w Javie napisanej z użyciem biblioteki WebFlux (jest to reaktywny serwer webowy).
 
 Wewnętrzna struktura pakietowa wyróżnia:
+
 * podmoduł `domain` - zawierający logikę biznesową,
 * podmoduł `app` - zawierają kod powiązany z infrastrukturą - w tym wypadku z serwerem webowym (`app/rest`)  oraz z implementacją prostego mechanizmu zarządzania stanem (`app/store`).
 
@@ -64,6 +70,7 @@ Moduł posiada własny plik `pom.xml` - co jest akurat specyficzne dla środowis
 Wewnątrz folderu `frontend` można wykorzystywać komendy `npm` oraz `ng`, przy założeniu, że są one globalnie dostępne. Pomimo istnienia `frontend-maven-plugin` zaleca się korzystać z własnej instalacji NodeJS przy pracy z projektem na lokalnej maszynie.
 
 Aplikacja Angularowa znajduje się w folderze `src/app`. Istnieje tam w tej chwili jeden moduł `books`. Dalsza struktura folderów ma następujące znaczenie:
+
 * `app/books/model` - folder dla definicji obiektów modelu (głównie data transfer objects).
 * `app/books/shared` - folder dla elementów współdzielonych przez wszystkie komponenty w module `books`.
 * `app/books/shared/services` - folder dla serwisów używanych w ramach modułu.
@@ -71,17 +78,18 @@ Aplikacja Angularowa znajduje się w folderze `src/app`. Istnieje tam w tej chwi
 * `app/books/book-list/book-panel` - komponent "dummy", prywatny dla "book-list". Wszelkie prywatne komponenty umieszczamy wewnątrz hierarchii komponentu "top-level".
 
 W głównym katalogu aplikacji (`app`) znajdują się także następujące istotne pliki źródłowe:
+
 * `app.component.*` - główny komponent aplikacji - wewnątrz niego osadzone są wszystkie inne komponenty "top level".
 * `app-routing.module.ts` - kod routera dla aplikacji Bookstore.
 
 == Architektura
 Angular jest realizacją architektury aplikacji "Single Page Application", którą poznaliśmy już na pierwszym wykładzie.
 
-![Architektura SPA](../img/rich-front-architecture.svg)
+image::img/rich-front-architecture.svg[]
 
 Angular odpowiada za całość implementacji po stronie przeglądarki, łącznie z Routerem, przy czym Router jest modułem opcjonalnym.
 
-![Architektura Angular](../img/angular-architecture.png)
+image::img/angular-architecture.png[]
 
 == Podstawowe elementy Angulara
 === Moduły
@@ -110,6 +118,7 @@ export class BooksModule {
 ----
 
 Moduł pozwala zarządzać zależnościami wewnątrz aplikacji, zarówno wewnętrznymi jak i zewnętrznymi. Deklaracja zależności modułowych następuje wewnątrz dekoratora `@NgModule`, znajdują się tam kolekcje o następujących właściwości:
+
 * `providers` - lista klas obiektów, które będą mogły być wstrzyknięte przez Angular Injector w ramach tego modułu. Wykorzystywane w przypadku np. lokalnych serwisów.
 * `declarations` - lista klas komponentów, które są zadeklarowane w ramach tego modułu.
 * `imports` - lista klas komponentów, które są importowane i mogą być użyte wewnątrz tego modułu. Są to zarówno komponenty pochodzące z innych, zewnętrznych bibliotek (np. Angular Material, ale także biblioteki samego Angulara, np. Angular Forms) ale także komponentów z innych modułów danej aplikacji.
@@ -129,11 +138,13 @@ Więcej informacji na temat samych modułów tamże: https://angular.io/guide/ng
 Komponent jest podstawową jednostką, przy pomocy której zbudowana jest każda aplikacja Angularowa. Komponent jest elementem wizualnym, tj może on być wyrenderowany na ekranie (w modelu DOM dokumentu HTML) i służy do prezentacji danych oraz reagowania na akcje wykonywane przez użytkownika.
 
 Komponent składa się z nastepujących elementów:
+
 * kod komponentu (klasa Typescript) pełniący funkcję kontrolera,
 * template komponentu (fragment HTML z możliwością stosowania dyrektyw),
 * prywatny arkusz styli (dokument CSS, SCSS lub inny wspierany).
 
 Elementy te mogą być zgrupowane w ramach jednego pliku, najczęsciej jednak stosuje się kilka niezależnych plików źródłowych:
+
 * `<nazwa>.component.html` - dla template,
 * `<nazwa>.component.scss` - dla arkusza styli,
 * `<nazwa>.component.ts` - dla kodu komponentu.
@@ -147,8 +158,10 @@ Komponenty mogą komunikować się między sobą na kilka sposobów. To zagadnie
 Komponenty można wygenerować z użyciem Angular CLI:
 
 [source,bash]
+----
 cd src/app
 ng generate component <name>
+----
 
 Nazwa komponentu może (powinna) być poprzedzona nazwą modułu oraz ewentualnie nazwą komponentu-rodzica.
 
@@ -203,6 +216,7 @@ Wiązanie wymaga ujęcie nazwy atrybutu elementu HTML w nawiasy kwadratowe: `[va
 
 ==== Event binding
 Z każdym elementem DOM modelu powiązana jest pewna ilość zdarzeń, na które można reagować i obsługiwać. Jest to drugi kierunek komunikacji: od DOM modelu do komponentu Angulara. Reagowanie na zdarzenia DOM modelu w Angularze realizowane jest za pomocą wiązań zdarzeniowych (Event Binding). Aby zadeklarować takie wiązanie, należy
+
 [source,angular2html]
 ----
 <div (click)="onDivClicked()">
@@ -292,11 +306,13 @@ export class UserFormComponent {
 Dyrektywy to rozszerzenia języka HTML oferowane przez Angular. Mogą być one wykorzystywane w template'ach.
 
 Podstawowe dyrektywy atrybutowe:
+
 * `ngModel` - (znana nam już dyrektywa dostępna po zaimportowaniu modułu `FormsModule`) pozwala powiązać pola formularza z modelem.
 * `ngClass` - pozwala na dynamiczną modyfikację klas CSS określonych dla danego elementu HTML.
 * `ngStyle` - pozwala na dynamiczne modyfikowanie styli CSS określonych dla danego elementu HTML.
 
 Podstawowe dyrektywy strukturalne Angulara:
+
 * `ngFor`
 * `ngIf`
 * `ngSwitch`, `ngSwitchCase`, `ngSwitchDefault`
@@ -307,6 +323,7 @@ Serwisem nazywamy klasy i ich obiekty, które Angular potrafi wstrzykiwać do in
 Serwis musi być oznaczony dekoratorem `@Injectable()`.
 
 Przykładowe zastosowania serwisów:
+
 * Wrappery na interfejsy RESTowe służące do komunikacji np. z backendem.
 * Zapewnienie środków komunikacji między komponentami (serwis staje się Singletonem przy pomocy którego komponenty mogą wymieniać się danymi).
 
@@ -336,17 +353,18 @@ Więcej w dokumentacji Angulara: https://angular.io/guide/dependency-injection
 
 == Angular Router
 Angular Router jest opcjonalną biblioteką pełniącą funkcję integratora aplikacji SPA oraz paska URL przeglądarki. Router realizuje następujące funkcjonalności:
+
 * przekierowuje do odpowiedniego widoku po wpisaniu odpowiedniego adresu w pasku URL,
 * aktualizuje zawartość paska URL w reakcji na zdarzenie nawigacji aplikacji SPA,
 * udostępnia aplikacji zawartość parametrów żądania będących częścią adresu.
 
 Routing inicjujemy tzw. tablicą przejść i konfigurujemy go jako moduł:
 
-![Routing setup](../img/routing-setup-in-app.png)
+image::img/routing-setup-in-app.png[]
 
 Tablica przejść jest zwykłą tablicą obiektów o określonej strukturze. Określamy w nim mapowanie ścieżek URL (path) na komponenty (component):
 
-![Route table ](../img/routing-reorganized.png)
+image::img/routing-reorganized.png[]
 
 Przy przejściu do zadanej ścieżki Angular Router podmienia komponent wewnątrz elementu zwanego router outlet. Por: https://pwr-piisw.github.io/wyklady/angular_1.html#/8/2
 
@@ -355,6 +373,7 @@ Wyczerpujący opis zawarto także w książce Victora Savkina: https://leanpub.c
 
 == Techniki komunikacji międzykomponentowej
 Dobre praktyki w projektowaniu aplikacji Angularowej obejmują dekompozycję widoków na wiele małych, współpracujących ze sobą komponentów. Współpraca komponentów opiera się na komunikacji: wymianie danych i zdarzeń. Angular oferuje kilka technik komunikacji między komponentami:
+
 * z wykorzystaniem wiązań (bindings),
 * z wykorzystaniem serwisów,
 * przy wykorzystaniu relacji parent-child.
@@ -365,6 +384,7 @@ Więcej informacji: https://angular.io/guide/component-interaction
 Więcej informacji w dokumentacji Angulara: https://angular.io/guide/http
 
 == Bibliografia
+
 * https://pwr-piisw.github.io/wyklady/angular_1.html#/
 * https://github.com/pwr-piisw/bookstore
 * https://angular.io/cli/generate
