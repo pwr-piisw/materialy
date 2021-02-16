@@ -1,4 +1,6 @@
 = Wykład 5 - SPA, Angular
+:toc: left
+:toc-title: Spis treści
 
 Link do prezentacji: https://pwr-piisw.github.io/wyklady/angular_1.html#/
 

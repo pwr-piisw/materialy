@@ -1,8 +1,9 @@
 = Projekt i implementacja systemów webowych
 :release-tag: 2021.02.15
 :toc: left
+:toc-title: Spis treści
 
-Strona z materiałami dydatktycznymi.
+Strona z materiałami dydaktycznymi.
 
 == Wykład
 
