@@ -1,0 +1,53 @@
+.Harmonogram wykładów
+[cols="1,2,5,3,3"]
+|===
+|Lp.|Data|Prezentacja|Konspekt|Uwagi
+
+|1
+|2021-03-01
+|https://pwr-piisw.github.io/wyklady/01_wprowadzenie.html#/[Wprowadzenie], https://pwr-piisw.github.io/wyklady/01_html_css.html#/[HTML5 i CSS3]
+|
+|
+
+|2
+|2021-03-08
+|https://pwr-piisw.github.io/wyklady/02_javascript.html#/[Javascript], https://pwr-piisw.github.io/wyklady/02_typescript.html#/[Typescript]
+|
+|
+
+|3
+|2021-03-15
+|Backend
+|
+|
+
+|4
+|2021-03-22
+|Mapowanie obiektowo relacyjne
+|
+|
+
+|5
+|2021-03-29
+|https://pwr-piisw.github.io/wyklady/05_angular.html#/[Angular]
+|xref:5_angular.adoc[]
+|
+
+|6
+|2021-04-12
+|https://pwr-piisw.github.io/wyklady/06_reactive.html#/[Programowanie reaktywne]
+|xref:6_reactive.adoc[]
+|
+
+|7
+|2021-04-19
+|Cloud computing
+|xref:7_cloud.adoc[]
+|Kolokwium 1.footnote:covid[W przypadku zajęć zdalnych (pandemia) będą obowiązywać inne zasady (ogłoszone na wykładzie).]
+
+|8
+|2021-04-26
+|https://pwr-piisw.github.io/wyklady/08_frontend-testing.html#/[Testowanie aplikacji webowych]
+|
+|Kolokwium 2.footnote:covid[]
+|===
