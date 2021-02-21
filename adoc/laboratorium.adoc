@@ -57,7 +57,7 @@ WARNING: Kopiowanie prac innych studentów skutkuje automatycznie niezaliczeniem
 
 == Harmonogram zajęć laboratoryjnych
 
-include::_harmonogram.adoc[]
+include::_harmonogram-lab.adoc[]
 
 == Propozycje tematów projektów
 

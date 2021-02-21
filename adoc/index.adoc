@@ -2,31 +2,22 @@
 :release-tag: 2021.02.15
 :toc: left
 :toc-title: Spis treści
+:table-caption: Tabela
 
-Strona z materiałami dydaktycznymi.
+Strona z materiałami dydaktycznymi dotyczącymi wykładu oraz zajęć laboratoryjnych.
 
 == Wykład
 
-image::https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/pwr-piisw/wyklad2021?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge]
+=== Gitter
 
-=== Prezentacje
+Publiczny kanał dla grupy wykładowej 2020/2021 (prosimy o dołączenie):
+image:https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/pwr-piisw/wyklad2021?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge]
 
-[horizontal]
-Wykład 1:: https://pwr-piisw.github.io/wyklady/01_wprowadzenie.html#/[Wprowadzenie], https://pwr-piisw.github.io/wyklady/01_html_css.html#/[HTML5 i CSS3]
-Wykład 2:: https://pwr-piisw.github.io/wyklady/02_javascript.html#/[Javascript], https://pwr-piisw.github.io/wyklady/02_typescript.html#/[Typescript]
-Wykład 3:: Backend
-Wykład 4:: Mapowanie obiektowo relacyjne
-Wykład 5:: https://pwr-piisw.github.io/wyklady/05_angular.html#/[Angular]
-Wykład 6:: https://pwr-piisw.github.io/wyklady/06_reactive.html#/[Programowanie reaktywne]
-Wykład 7:: Cloud computing
-Wykład 8:: https://pwr-piisw.github.io/wyklady/08_frontend-testing.html#/[Testowanie aplikacji webowych]
+=== Harmonogram
 
-=== Konspekty
+include::_harmonogram-wyklad.adoc[]
 
-[horizontal]
-Wykład 5:: xref:5_angular.adoc[]
-Wykład 6:: xref:6_reactive.adoc[]
-Wykład 7:: xref:7_cloud.adoc[]
+=== Bibliografia
 
 == Laboratorium
 
