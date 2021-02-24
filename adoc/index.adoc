@@ -27,11 +27,16 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 
 [horizontal]
 https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_0.pdf[Lista 0]:: 2021-03-01
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_1.pdf[Lista 1]:: 2021-03-08 (zaliczenie do 2021-03-15)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_2.pdf[Lista 2]:: 2021-03-15 (zaliczenie do 2021-03-22)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-29)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-12)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: 2021-04-12 (zaliczenie do 2021-04-19)
+Lista 1:: 2021-03-08 (zaliczenie do 2021-03-14)
+Lista 2:: 2021-03-15 (zaliczenie do 2021-03-21)
+Lista 3:: 2021-03-22 (zaliczenie do 2021-03-28)
+Lista 4:: 2021-03-29 (zaliczenie do 2021-04-11)
+Lista 5:: 2021-04-12 (zaliczenie do 2021-04-18)
+//https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_1.pdf[Lista 1]:: 2021-03-08 (zaliczenie do 2021-03-15)
+//https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_2.pdf[Lista 2]:: 2021-03-15 (zaliczenie do 2021-03-22)
+//https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-29)
+//https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-12)
+//https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: 2021-04-12 (zaliczenie do 2021-04-19)
 
 === Dodatkowe materiały
 
