@@ -8,16 +8,24 @@ Strona z materiałami dydaktycznymi dotyczącymi wykładu oraz zajęć laborator
 
 == Wykład
 
-=== Gitter
+=== Komunikacja
 
-Publiczny kanał dla grupy wykładowej 2020/2021 (prosimy o dołączenie):
+Publiczny kanał Gitter dla grupy wykładowej 2020/2021 (prosimy o dołączenie):
 image:https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/pwr-piisw/wyklad2021?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge]
 
 === Harmonogram
 
-include::_harmonogram-wyklad.adoc[]
+include::_wyklad-harmonogram.adoc[]
+
+=== Konsultacje
+
+mgr inż. Szymon Jaśniak:: tbd
+mgr inż. Maciej Małecki:: *Wtorek 14:00-15:00*. Proszę o wcześniejszy kontakt mailowy (maciej.malecki _@_ pwr.edu.pl) lub o bezpośredni kontakt poprzez aplikację https://gitter.im (chat).
+mgr inż. Marcin Nowak:: tbd
 
 === Bibliografia
+
+include::_wyklad-bibliografia.adoc[leveloffset=+2]
 
 == Laboratorium
 
@@ -38,7 +46,6 @@ Lista 5:: 2021-04-12 (zaliczenie do 2021-04-18)
 //https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-12)
 //https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: 2021-04-12 (zaliczenie do 2021-04-19)
 
-=== Dodatkowe materiały
+=== Bibliografia
 
-* https://pwr-piisw.github.io/materialy/Angular%20cheat%20sheet.pdf[Angular cheat sheet.pdf]
-* https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/GIT-cheat-sheet.pdf[GIT cheat sheet.pdf]
+include::_lab-bibliografia.adoc[leveloffset=+2]
