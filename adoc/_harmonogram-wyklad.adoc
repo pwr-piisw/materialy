@@ -5,13 +5,15 @@
 
 |1
 |2021-03-01
-|https://pwr-piisw.github.io/wyklady/01_wprowadzenie.html#/[Wprowadzenie], https://pwr-piisw.github.io/wyklady/01_html_css.html#/[HTML5 i CSS3]
+|Wprowadzenie, standardy HTML5 oraz CSS3
+//| https://pwr-piisw.github.io/wyklady/01_wprowadzenie.html#/[Wprowadzenie], https://pwr-piisw.github.io/wyklady/01_html_css.html#/[HTML5 i CSS3]
 |
 |
 
 |2
 |2021-03-08
-|https://pwr-piisw.github.io/wyklady/02_javascript.html#/[Javascript], https://pwr-piisw.github.io/wyklady/02_typescript.html#/[Typescript]
+|Języki Javascript i Typescript
+//|https://pwr-piisw.github.io/wyklady/02_javascript.html#/[Javascript], https://pwr-piisw.github.io/wyklady/02_typescript.html#/[Typescript]
 |
 |
 
@@ -29,13 +31,15 @@
 
 |5
 |2021-03-29
-|https://pwr-piisw.github.io/wyklady/05_angular.html#/[Angular]
+|Angular
+//|https://pwr-piisw.github.io/wyklady/05_angular.html#/[Angular]
 |xref:5_angular.adoc[]
 |
 
 |6
 |2021-04-12
-|https://pwr-piisw.github.io/wyklady/06_reactive.html#/[Programowanie reaktywne]
+|Programowanie reaktywne
+//|https://pwr-piisw.github.io/wyklady/06_reactive.html#/[Programowanie reaktywne]
 |xref:6_reactive.adoc[]
 |
 
@@ -47,7 +51,8 @@
 
 |8
 |2021-04-26
-|https://pwr-piisw.github.io/wyklady/08_frontend-testing.html#/[Testowanie aplikacji webowych]
+|Testowanie automatyczne frontendów
+//|https://pwr-piisw.github.io/wyklady/08_frontend-testing.html#/[Testowanie aplikacji webowych]
 |
 |Kolokwium 2.footnote:covid[]
 |===
