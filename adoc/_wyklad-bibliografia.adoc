@@ -1,0 +1,17 @@
+== HTML & CSS
+
+== Javascript & Typescript
+
+== Angular
+* https://angular.io/cli/generate
+* https://angular.io/guide/ngmodules
+* https://angular.io/guide/displaying-data
+* https://angular.io/guide/user-input
+* https://angular.io/guide/router
+* https://angular.io/guide/http
+* https://angular.io/guide/dependency-injection
+* https://leanpub.com/router
+* https://angular.io/guide/component-interaction
+
+== Programowanie reaktywne
+* https://rxjs-dev.firebaseapp.com/api
