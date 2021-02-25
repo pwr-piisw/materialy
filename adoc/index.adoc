@@ -3,13 +3,14 @@
 :toc: left
 :toc-title: Spis treści
 :table-caption: Tabela
+:icons: font
 
 Strona z materiałami dydaktycznymi dotyczącymi wykładu oraz zajęć laboratoryjnych.
 
 == Konsultacje
 
 mgr inż. Szymon Jaśniak:: tbd
-mgr inż. Maciej Małecki:: *Wtorek 14:00-15:00*. Proszę o wcześniejszy kontakt mailowy (maciej.malecki _@_ pwr.edu.pl) lub o bezpośredni kontakt poprzez aplikację https://gitter.im (chat).
+mgr inż. Maciej Małecki:: *Wtorek 14:00-15:00* -- proszę o wcześniejszy kontakt mailowy (maciej.malecki _@_ pwr.edu.pl) lub o bezpośredni kontakt poprzez aplikację https://gitter.im (chat). Konsultacje odbywają się z wykorzystaniem platformy Zoom.
 mgr inż. Marcin Nowak:: tbd
 
 == Wykład
@@ -19,7 +20,13 @@ mgr inż. Marcin Nowak:: tbd
 Publiczny kanał Gitter dla grupy wykładowej 2020/2021 (prosimy o dołączenie):
 image:https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/pwr-piisw/wyklad2021?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge]
 
+Wykłady będą prowadzone z wykorzystaniem platformy Zoom. Zaproszenia na wykłady będą wysyłane z ok. tygodniowym wyprzedzeniem.
+
+Strona kursu na platformie ePortal: https://eportal.pwr.edu.pl/course/view.php?id=27584 (rozwiązanie zapasowe).
+
 === Harmonogram
+
+TIP: Linki do slajdów będą pojawiać się najpóźniej w dniu wykładu.
 
 include::_wyklad-harmonogram.adoc[]
 
