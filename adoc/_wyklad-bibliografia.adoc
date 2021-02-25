@@ -1,4 +1,6 @@
 == HTML & CSS
+* www.w3schools.com/cssref/
+* www.w3schools.com/cssref/trysel.asp
 
 == Javascript & Typescript
 

@@ -5,8 +5,7 @@
 
 |1
 |2021-03-01
-|Wprowadzenie, standardy HTML5 oraz CSS3
-//| https://pwr-piisw.github.io/wyklady/01_wprowadzenie.html#/[Wprowadzenie], https://pwr-piisw.github.io/wyklady/01_html_css.html#/[HTML5 i CSS3]
+|https://pwr-piisw.github.io/wyklady/01_wprowadzenie_html_css.html[Wprowadzenie, standardy HTML5 oraz CSS3]
 |
 |
 

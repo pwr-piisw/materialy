@@ -2,15 +2,16 @@
 mgr inż. Maciej Małecki <maciej.malecki@pwr.edu.pl>
 :icons: font
 :table-caption: Tabela
+:toc: left
+:toc-title: Spis treści
 
 == Organizacja zajęć
+
 Zajęcia laboratoryjne są prowadzone bez przerwy przez 1,5 godziny.
 
-.Konsultacje
-[horizontal]
-Szymon Jaśniak:: Poniedziałek,
-Maciej Małecki:: Poniedziałek,
-Marcin Nowak:: Poniedziałek,
+== Konsultacje
+
+include::_konsultacje.adoc[]
 
 == Ocena
 
