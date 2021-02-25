@@ -2,6 +2,7 @@
 *.log
 *.out
 *.pdf
+!Angular cheat sheet.pdf
 out/
 out-adoc/
 .idea/
