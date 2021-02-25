@@ -12,6 +12,7 @@ git remote add origin https://maciejmalecki:"$GITHUB_TOKEN"@github.com/pwr-piisw
 ls -al
 
 mv adoc/img out-adoc
+mv
 find . -maxdepth 1 ! -name 'out-adoc' ! -name '.git' ! -name '.gitignore' ! -name '.circleci' -exec rm -rf {} \;
 mv out-adoc/* .
 rm -R out-adoc/
