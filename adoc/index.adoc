@@ -9,9 +9,7 @@ Strona z materiałami dydaktycznymi dotyczącymi wykładu oraz zajęć laborator
 
 == Konsultacje
 
-mgr inż. Szymon Jaśniak:: tbd
-mgr inż. Maciej Małecki:: *Wtorek 14:00-15:00* -- proszę o wcześniejszy kontakt mailowy (maciej.malecki _@_ pwr.edu.pl) lub o bezpośredni kontakt poprzez aplikację https://gitter.im (chat). Konsultacje odbywają się z wykorzystaniem platformy Zoom.
-mgr inż. Marcin Nowak:: tbd
+include::_konsultacje.adoc[]
 
 == Wykład
 
