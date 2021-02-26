@@ -22,8 +22,8 @@
 
 \section*{Wprowadzenie}
 \begin{itemize}
-        \item  W~zadaniu \ref{exc:spring_rest} trzeba zaimplementować uproszczoną wersję reverse-proxy. Jako takie reverse-proxy nie ma żadnej logiki biznesowej i~służy jedynie jako pośrednik odbierając requesty i~przekazując je dalej. Reverse-proxy ukrywa architekturę systemów po stronie odbiorcy przed nadawcą, on (nadawca) niezależnie od rodzaju requestu cały czas rozmawia z~jednym systemem (proxy).
-        \item Kolejne zadania uzupełniają implementację serwera o~testy Junitowe (jednostkowe bądź integracyjne), obsługę wyjątków oraz typowe testy integracyjne.
+        \item  W~zadaniu \ref{exc:spring_rest} należy zaimplementować uproszczoną wersję reverse-proxy. Jako takie reverse-proxy nie ma żadnej logiki biznesowej i~służy jedynie jako pośrednik odbierający żądania i~przekazujący je dalej. Reverse-proxy ukrywa architekturę systemów po stronie odbiorcy przed nadawcą, on (nadawca) niezależnie od rodzaju żądania cały czas rozmawia z~jednym systemem (proxy).
+        \item Kolejne zadania uzupełniają implementację serwera o~testy JUnitowe (jednostkowe bądź integracyjne), obsługę wyjątków oraz typowe testy integracyjne.
         \item Ostatnie zadanie polega na podłączeniu CI do repozytorium z~zadaniem i~doprowadzenie stanu builda do zieleni.
 \end{itemize}
 
@@ -78,12 +78,12 @@ Reverse-proxy nie jest w stanie interpretować błędów jakie mogą się przytr
             (3 pkt) Testowanie integracyjne.\\
 \begin{itemize}
         \item Do testowania integracyjnego zalecane jest użycie aplikacji \texttt{Postman}. Przyklady odnosnie pisania testów api z użyciem tego narzędzia są tutaj: \\\url{http://blog.getpostman.com/2014/03/07/writing-automated-tests-for-apis-using-postman/}
-        \item Dla każdego rodzaju requestu powinny zostać napisane conajmniej dwa test integracyjne (1 pozytywny i 1 negatywny).
+        \item Dla każdego rodzaju żądania powinny zostać napisane co najmniej dwa test integracyjne (jeden pozytywny (tzw \emph{happy path}) i jeden negatywny).
 \end{itemize}
 
         \item\label{exc:travis}
             (3 pkt) CircleCI.\\
-W~ramach tego ćwiczenia trzeba do serwisu \texttt{circleci.com} podłączyć swoje repozytorium z~zaimplementowanym reverse-proxy i~doprowadzić build do zieleni - aby się kompilował oraz żeby wszystkie testy były "zielone".
+W~ramach tego ćwiczenia trzeba do serwisu \texttt{circleci.com} podłączyć swoje repozytorium z~zaimplementowanym reverse-proxy i~doprowadzić build do zieleni - aby się kompilował oraz żeby wszystkie testy były "przechodziły".
 
     \end{enumerate}
 \end{document}
