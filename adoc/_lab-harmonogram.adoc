@@ -15,27 +15,27 @@
 |3
 |2021-03-15
 |HTML, CSS i Javascript.
-|Lista 1
+|Lista 1 (2021-03-14)
 
 |4
 |2021-03-22
 |Tworzenie backendu - serwisy Restful, testowanie backendu.
-|Lista 2
+|Lista 2 (2021-03-21)
 
 |5
 |2021-03-29
 |Tworzenie backendu - data persistence, mockowanie danych.
-|Lista 3
+|Lista 3 (2021-03-28)
 
 |6
 |2021-04-12
 |Tworzenie aplikacji Angular, testowanie kodu frontendu.
-|Lista 4
+|Lista 4 (2021-04-11)
 
 |7
 |2021-04-19
 |Podział na grupy projektowe, wybór i akceptacja tematu projektu.
-|Lista 5
+|Lista 5 (2021-04-18)
 
 |8
 |2021-04-26
