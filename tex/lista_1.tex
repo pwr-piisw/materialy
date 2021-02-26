@@ -13,7 +13,7 @@
     \section*{Wprowadzenie}
         Do realizacji zadań z~tej listy niezbędne jest wykonanie zadań z~listy~0, w~szczególności zaś konieczne jest posiadanie konta na portalach \texttt{github.com} oraz \texttt{circleci.com}.
 
-        Rozwiązanie każdego z~zadań musi znaleźć się na prywatnym repozytorium studenta (repozytorium takie tworzone jest w~ramach zadania~\ref{exc:git-repo}). Prowadzącemu należy nadać dostęp (odczyt/zapis), a zgłaszając gotowość listy należy dostarczyć prowadzącemu link do tego repozytorium.
+        Rozwiązanie każdego z~zadań (poza \ref{exc:maven}) musi znaleźć się na prywatnym repozytorium studenta (repozytorium takie tworzone jest w~ramach zadania~\ref{exc:git-repo}). Prowadzącemu należy nadać dostęp (odczyt/zapis), a zgłaszając gotowość listy należy dostarczyć prowadzącemu link do tego repozytorium. Dla zadania \ref{exc:maven} należy utworzyć osobne, prywatne repozytorium oraz także nadać prowadzącemu odpowiednie uprawnienia.
 
     \section*{Oceny}
     \begin{tabular}{|l|c|c|c|c|c|c|}
@@ -38,7 +38,7 @@
             (2 pkt) Praca z lokalną kopią repozytorium.
             \begin{enumerate}
                 \item Utwórz prywatne repozytorium w~ramach swojego konta na GitHubie.
-                \item Wykorzystując funkcjonalność portalu \texttt{github} zaimportuj zawartość repozytorium \url{https://github.com/pwr-piisw/ng7-spring-boot-seed.git} do swojego repozytorium prywatnego\footnote{Możliwe jest także użycie \texttt{git remote add} oraz \texttt{git push} aby zaimportować zawartość repozytorium w~przypadku, gdy repozytorium prywatne już istnieje i~jest puste.}.
+                \item Wykorzystując funkcjonalność portalu \texttt{github} zaimportuj zawartość repozytorium \url{https://github.com/pwr-piisw/bookstore.git} do swojego repozytorium prywatnego\footnote{Możliwe jest także użycie \texttt{git remote add} oraz \texttt{git push} aby zaimportować zawartość repozytorium w~przypadku, gdy repozytorium prywatne już istnieje i~jest puste.}.
                 \item Nadaj uprawnienia (zapis/odczyt) do repozytorium prowadzącemu.
                 \item Sklonuj zawartość repozytorium z~użyciem lokalnego klienta GIT.
                 \item Zmodyfikuj zawartość pliku \texttt{README.adoc} dodając nowy paragraf tekstu.
@@ -73,9 +73,11 @@
         \item\label{exc:maven}
             (4 pkt) W~systemie obsługującym bibliotekę istnieją trzy komponenty: komponent zarządzający użytkownikami, komponent odpowiedzialny za książki oraz komponent w~którym znajduje się logika i~reguly biznesowe procesów wypożyczania książek. Komponent wypożyczania zależy od komponentu obsługi książek, a~ten z~kolei zależy od komponentu obsługi użytkownika.
             \begin{enumerate}
-                \item\label{exc:maven-directory} Utwórz podkatalog w~repozytorium, pozostałe punkty tego zadania należy wykonać w~tym katalogu lub jego podkatalogach.
-                \item Przygotuj komendy Maven’owe po których uruchomieniu powstanie trójmodułowy projekt zgodny z~ww. zależnościami.
-                \item Główny plik \texttt{pom.xml} powinien znajdować się w~katalogu~\ref{exc:maven-directory}, a~każdy z~modułów powinien mieć swój podkatalog.
+                \item Utwórz nowe prywatne repozytorium dla tego zadania.
+                \item Główny plik \texttt{pom.xml} powinien znajdować się w~katalogu głównym repozytorium.
+                \item Każdy moduł powinien mieć własny podkatalog, w~każdym podkatalogu powinien być modułowy plik \texttt{pom.xml}.
+                \item Zintegruj powstały projekt z środowiskiem CircleCI (użyj odpowiedniego obrazu, na którym dostępna jest odpowiednia wersja Javy oraz Mavena).
+                \item Akceptowalne jest użycie mvnw (Maven Wrapper).
             \end{enumerate}
 
     \end{enumerate}

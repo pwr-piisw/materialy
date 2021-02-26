@@ -16,7 +16,7 @@ include::_konsultacje.adoc[]
 === Komunikacja
 
 Publiczny kanał Gitter dla grupy wykładowej 2020/2021 (prosimy o dołączenie):
-image:https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=https://gitter.im/pwr-piisw/wyklad2021?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge]
+image:https://badges.gitter.im/pwr-piisw/wyklad2021.svg[link=http://gitter.im/pwr-piisw/wyklad2021?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge]
 
 Wykłady będą prowadzone z wykorzystaniem platformy Zoom. Zaproszenia na wykłady będą wysyłane z ok. tygodniowym wyprzedzeniem.
 
@@ -42,8 +42,13 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 |===
 |Godzina|Prowadzący|Informacje
 
-|9:15-11:00|Maciej Małecki|image:https://badges.gitter.im/pwr-piisw/lab2021-mmalecki.svg[link=https://gitter.im/pwr-piisw/lab2021-mmalecki?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla grupy
-|9:15-11:00|Marcin Nowak|https://gitter.im/pwr-piisw/lab2021mnowak - chat dla grupy
+|9:15-11:00
+|Maciej Małecki
+|image:http://badges.gitter.im/pwr-piisw/lab2021-mmalecki.svg[link=https://gitter.im/pwr-piisw/lab2021-mmalecki?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla grupy
+
+|9:15-11:00
+|Marcin Nowak
+|image:http://badges.gitter.im/pwr-piisw/lab2021mnowak.svg[link=https://gitter.im/pwr-piisw/lab2021mnowak?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla calej grupy
 
 |===
 
@@ -57,7 +62,6 @@ Lista 3:: 2021-03-22 (zaliczenie do 2021-03-28)
 Lista 4:: 2021-03-29 (zaliczenie do 2021-04-11)
 Lista 5:: 2021-04-12 (zaliczenie do 2021-04-18)
 
-//https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_2.pdf[Lista 2]:: 2021-03-15 (zaliczenie do 2021-03-21)
 //https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-28)
 //https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-11)
 //https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: 2021-04-12 (zaliczenie do 2021-04-18)

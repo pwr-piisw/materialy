@@ -5,6 +5,8 @@ mgr inż. Maciej Małecki <maciej.malecki@pwr.edu.pl>
 :toc: left
 :toc-title: Spis treści
 
+xref:index.adoc[Powrót do strony głównej]
+
 == Organizacja zajęć
 
 Zajęcia laboratoryjne są prowadzone bez przerwy przez 1,5 godziny.
@@ -70,3 +72,7 @@ Dashboard systemu inteligentnego domu:: Aplikacja prezentuje odczyty domowych mi
 System sprzedaży biletów kinowych:: Aplikacja umożliwia rezerwację biletów na seans kinowy. System wystawia zewnętrzny interfejs REST umożliwiający elektroniczną weryfikację biletu.
 Tablica ogłoszeń drobnych:: System umożliwia publikację ogłoszeń wraz z informacjami kontaktowymi. System publikuje interfejs REST pozwalający na przeszukiwanie ogłoszeń przez zewnętrzny system agregujący lub indeksujący. Nie ma konieczności integracji z żadnym systemem agregującym, interfejs może być dowolny.
 Elektroniczny bilet miejski:: Użytkownik uzyskuje możliwość rejestracji w serwisie oraz wygenerowanie wirtualnego biletu umożliwiającego korzystanie z systemu transportu zbiorowego. System wystawia zewnętrzny interfejs pozwalający na walidację biletów przez kontrolera. Dla uproszczenia można przyjąć identyfikację z wykorzystaniem unikalnego identyfikatora UUID.
+
+'''
+
+xref:index.adoc[Powrót do strony głównej]
