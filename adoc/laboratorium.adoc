@@ -34,9 +34,9 @@ include::_konsultacje.adoc[]
 //** Zadań lub etapów projektu nie można oddawać na konsultacjach.
 ** Zadania lub etap projektu oddane na następnych zajęciach po obowiązującym terminie są oceniane najwyżej na ocenę dostateczną (3), materiał oddany po tym czasie oceniany jest na ocenę 2{nbsp}(ndst).
 * Szczegółowe zasady dotyczące prac z listami zadań:
-** Na pierwszych pięciu zajęciach studenci rozwiązują *osobiście* listy zadań.
 ** Lista zadań nr{nbsp}0 realizowana na pierwszych zajęciach nie podlega ocenie.
-** Listy zadań dostepne są pod następującym adresem: https://pwr-piisw.github.io/materialy/.
+** Na kolejnych pięciu zajęciach studenci rozwiązują *osobiście* listy zadań.
+** Listy zadań dostepne są pod następującym adresem: https://pwr-piisw.github.io/materialy/index.html#_listy_zadań.
 ** Na każdej liście zadań umieszczone są informacje, w jaki sposób rozwiązania zadań należy umieszczać w repozytorium GitHub.
 * Szczegółowe zasady dotyczące pracy z kodem podczas fazy projektowej:
 ** Na zajęciach 7-mych studenci tworzą 3--4 osobowe grupy projektowe, w ramach których realizować będą projekt.
