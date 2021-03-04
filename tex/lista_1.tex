@@ -27,7 +27,7 @@
     \section*{Zadania}
     \begin{enumerate}
         \item\label{exc:github-access}
-            (2 pkt) Konfiguracja dostępu do serwisu \texttt{github.com}.
+            (2 pkt) Konfiguracja dostępu do serwisu \texttt{github.com}.\footnote{W~wypadku, gdy zajęcia prowadzone są zdalnie, zadanie to automatycznie jest zaliczone z~maksymalną liczbą punktów.}
             \begin{enumerate}
                 \item Wygeneruj parę kluczy publicznych/prywatnych o~długości 4096 bitów (z użyciem narzędzia \texttt{ssh-keygen} lub \texttt{putty-keygen}\footnote{Klucz w~formacie putty należy przekonwertować do formatu OpenSSH.}).
                 \item Zarejestruj wygenerowany klucz publiczny w~swoim profilu w serwisie github.com.
@@ -41,7 +41,7 @@
                 \item Wykorzystując funkcjonalność portalu \texttt{github} zaimportuj zawartość repozytorium \url{https://github.com/pwr-piisw/bookstore.git} do swojego repozytorium prywatnego\footnote{Możliwe jest także użycie \texttt{git remote add} oraz \texttt{git push} aby zaimportować zawartość repozytorium w~przypadku, gdy repozytorium prywatne już istnieje i~jest puste.}.
                 \item Nadaj uprawnienia (zapis/odczyt) do repozytorium prowadzącemu.
                 \item Sklonuj zawartość repozytorium z~użyciem lokalnego klienta GIT.
-                \item Zmodyfikuj zawartość pliku \texttt{README.adoc} dodając nowy paragraf tekstu.
+                \item Zmodyfikuj zawartość pliku \texttt{README.md} dodając nowy paragraf tekstu.
                 \item Zatwierdź (ang. \textit{commit}) i~skomentuj zmianę, przenieś zmianę (ang. \textit{push}) do repozytorium zdalnego.
             \end{enumerate}
 
@@ -66,7 +66,7 @@
             \begin{enumerate}
               \item Utwórz konto w~serwisie \texttt{circleci.com} oraz skojarz je ze swoim kontem w~serwisie \texttt{github.com}.
               \item Aktywuj środowisko CI dla repozytorium utworzonego w~zadaniu~\ref{exc:git-repo}, uruchom ręcznie pierwszy \textit{build}.
-              \item Wprowadź kolejną zmianę do pliku \texttt{README.adoc}, zatwierdź i~\textit{wypushuj}, sprawdź czy kolejny \textit{build} uruchamia się automatycznie.
+              \item Wprowadź kolejną zmianę do pliku \texttt{README.md}, zatwierdź i~\textit{wypushuj}, sprawdź czy kolejny \textit{build} uruchamia się automatycznie.
               \item Zaktualizuj link do grafiki reprezentującej status \textit{builda} tak, aby wskazywał na właściwe środowisko w~ramach \texttt{CircleCI}.
             \end{enumerate}
 
