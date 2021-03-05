@@ -2,7 +2,13 @@
 * https://www.w3schools.com/cssref/
 * https://www.w3schools.com/cssref/trysel.asp
 
-== Javascript & Typescript
+== Javascript
+* Douglas Crockford. _JavaScript: The Good Parts._
+* https://blog.bitsrc.io/hoisting-in-modern-javascript-let-const-and-var-b290405adfda
+
+== Typescript
+* https://www.typescriptlang.org/docs/
+* https://www.typescriptlang.org/play
 
 == Angular
 * https://angular.io/cli/generate
