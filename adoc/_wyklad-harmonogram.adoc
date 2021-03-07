@@ -11,8 +11,7 @@
 
 |2
 |2021-03-08
-|Języki Javascript i Typescript
-//|https://pwr-piisw.github.io/wyklady/02_javascript.html#/[Javascript], https://pwr-piisw.github.io/wyklady/02_typescript.html#/[Typescript]
+|https://pwr-piisw.github.io/wyklady/02_javascript_typescript.html[Języki JavaScript i TypeScript]
 |
 |
 
