@@ -1,5 +1,5 @@
 = Projekt i implementacja systemów webowych
-:release-tag: 2021.03.13
+:release-tag: 2021.03.14
 :toc: left
 :toc-title: Spis treści
 :table-caption: Tabela
@@ -58,6 +58,7 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 https://github.com/pwr-piisw/materialy/releases/download/2021.02.26/lista_0.pdf[Lista 0]:: 2021-03-01
 https://github.com/pwr-piisw/materialy/releases/download/2021.03.04/lista_1.pdf[Lista 1]:: 2021-03-08 (zaliczenie do 2021-03-14)
 https://github.com/pwr-piisw/materialy/releases/download/2021.02.26/lista_2.pdf[Lista 2]:: 2021-03-15 (zaliczenie do 2021-03-21)
+https://github.com/pwr-piisw/materialy/releases/download/2021.03.14/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-28)
 Lista 3:: 2021-03-22 (zaliczenie do 2021-03-28)
 Lista 4:: 2021-03-29 (zaliczenie do 2021-04-11)
 Lista 5:: 2021-04-12 (zaliczenie do 2021-04-18)

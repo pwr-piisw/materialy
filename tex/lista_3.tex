@@ -15,7 +15,7 @@
 
     \section*{Zasady Pracy}
     \begin{itemize}
-        \item Rozwiązania zadań muszą być umieszczone w~prywatnym repozytorium na portalu \texttt{github.com}.
+        \item Rozwiązania zadań muszą być umieszczone w~prywatnym repozytorium na portalu \texttt{git\-hub.com}.
         \item Prowadzący musi mieć uprawnienia do odczytu i~zapisu dla tego repozytorium.
         \item Zadanie~\ref{exc:spring_rest} jest obowiązkowe -- w~razie jego braku dalsza część listy nie będzie sprawdzana.
     \end{itemize}
@@ -45,21 +45,21 @@
                 \item Konfiguracja adresów systemów zewnętrznych powinna znaleźć się w~pliku \texttt{applica\-tion.pro\-per\-ties} w~formie np. \texttt{destination.get=localhost:8899}.
             \end{itemize}
             
-            \begin{figure}[hb]
+            \begin{figure}[ht]
                 \centering
                 \includegraphics[width=\textwidth]{lista_3_proxy}
                 \caption{Diagram obrazujący sposób działania reverse proxy implementowanego w ramach zadania~\ref{exc:spring_rest}.}
                 \label{fig:lista_3_proxy}
             \end{figure}
 
-            \textbf{Wskazówka:} Wygeneruj aplikację SpringBoot z~modułem Web (wykorzystaj w~tym celu \url{https://start.spring.io}) oraz zaznajom się z~\texttt{RestController} i~\texttt{RestTemplate}.
+            \textbf{Wskazówka:} Wygeneruj aplikację SpringBoot z~wykorzystaniem Maven oraz z~modułem Web (wykorzystaj w~tym celu \url{https://start.spring.io}) oraz zaznajom się z~\texttt{RestController} i~\texttt{RestTemplate}.
 
         \item\label{exc:spring_rest_test}
             (3 pkt) Testowanie automatyczne.\\
             Napisz testy automatyczne dla komponentu reverse-proxy stworzonego w~zadaniu~\ref{exc:spring_rest}.
             \begin{itemize}
                 \item Dla każdego rodzaju żądania należy napisać co najmniej jeden test automatyczny.
-                \item Jesli rodzaj testu tego wymaga, zależnosć (czyli obecność systemu będącego na końcu testowanego interfejsu) powinna być uruchamiana przez sam test, a~nie przez użytkownika -- ręcznie.
+                \item Jeśli rodzaj testu tego wymaga, zależność (czyli obecność systemu będącego na końcu testowanego interfejsu) powinna być uruchamiana przez sam test, a~nie przez użytkownika -- ręcznie.
             \end{itemize}
 
             \textbf{Wskazówka:} Zaznajom się z~\texttt{TestRestTemplate} oraz np. \texttt{Wiremock} i~jego wsparciem dla testów JUnit.
@@ -73,16 +73,15 @@
             \end{itemize}
 
         \item\label{exc:postman}
-            (3 pkt) Testowanie integracyjne.\\
+            (3 pkt) Testowanie integracyjne.
             \begin{itemize}
-                \item Do testowania integracyjnego zalecane jest użycie aplikacji \texttt{Postman}. Przyklady testów api z użyciem tego narzędzia można znaleźć na stronie: \\\url{http://blog.getpostman.com/2014/03/07/writing-automated-tests-for-apis-using-postman/}
-                \item Dla każdego rodzaju żądania należy napisać co najmniej dwa test integracyjne (jeden pozytywny (tzw \emph{happy path}) i~jeden negatywny -- testujący sytuację błędną).
+                \item Do testowania integracyjnego należy użyć aplikację \texttt{Postman}. Przykłady testów API z użyciem tego narzędzia można znaleźć na stronie: \\\url{http://blog.getpostman.com/2014/03/07/writing-automated-tests-for-apis-using-postman/}.
+                \item Dla każdego rodzaju żądania należy napisać co najmniej dwa test integracyjne (jeden pozytywny -- tzw. \emph{happy path} -- i~jeden negatywny, testujący sytuację błędną).
             \end{itemize}
 
         \item\label{exc:travis}
             (3 pkt) CircleCI.\\
-            Aktywuj system CI \texttt{circleci.com} dla swojego repozytorium
-            W~ramach tego ćwiczenia trzeba do serwisu \texttt{circleci.com} podłączyć swoje repozytorium z~zaimplementowanym reverse-proxy i~doprowadzić build do zieleni - aby się kompilował oraz żeby wszystkie testy były "przechodziły".
+            Aktywuj system CI \texttt{circleci.com} dla repozytorium z~rozwiązaniem listy~3. Upewnij się, że aplikacja jest budowana oraz że uruchamiane są testy jednostkowe (nie ma konieczności uruchamiania testów integracyjnych w~ramach CircleCI). Status aplikacji powinien być "zielony".
     \end{enumerate}
 \end{document}
 
