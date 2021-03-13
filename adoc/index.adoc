@@ -1,5 +1,5 @@
 = Projekt i implementacja systemów webowych
-:release-tag: 2021.03.04
+:release-tag: 2021.03.13
 :toc: left
 :toc-title: Spis treści
 :table-caption: Tabela
