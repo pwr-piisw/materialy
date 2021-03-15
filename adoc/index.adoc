@@ -59,11 +59,9 @@ https://github.com/pwr-piisw/materialy/releases/download/2021.02.26/lista_0.pdf[
 https://github.com/pwr-piisw/materialy/releases/download/2021.03.04/lista_1.pdf[Lista 1]:: 2021-03-08 (zaliczenie do 2021-03-14)
 https://github.com/pwr-piisw/materialy/releases/download/2021.02.26/lista_2.pdf[Lista 2]:: 2021-03-15 (zaliczenie do 2021-03-21)
 https://github.com/pwr-piisw/materialy/releases/download/2021.03.14/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-28)
-Lista 4:: 2021-03-29 (zaliczenie do 2021-04-11)
+https://github.com/pwr-piisw/materialy/releases/download/2021.03.14/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-11)
 Lista 5:: 2021-04-12 (zaliczenie do 2021-04-18)
 
-//https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-28)
-//https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-11)
 //https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: 2021-04-12 (zaliczenie do 2021-04-18)
 
 === Bibliografia
