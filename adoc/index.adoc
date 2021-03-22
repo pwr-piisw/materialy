@@ -7,6 +7,8 @@
 
 Strona z materiałami dydaktycznymi dotyczącymi wykładu oraz zajęć laboratoryjnych.
 
+*Semestr letni 2020/2021*
+
 == Konsultacje
 
 include::_konsultacje.adoc[]
