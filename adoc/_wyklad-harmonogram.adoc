@@ -23,8 +23,8 @@
 
 |4
 |2021-03-22
-|Mapowanie obiektowo relacyjne
 |https://github.com/pwr-piisw/wyklady/blob/master/04-wyklad-orm.pdf[Mapowanie obiektowo-relacyjne]
+|
 |
 
 |5
