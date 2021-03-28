@@ -30,7 +30,7 @@
 |5
 |2021-03-29
 |Angular
-//|https://pwr-piisw.github.io/wyklady/05_angular.html#/[Angular]
+|https://pwr-piisw.github.io/wyklady/05_angular.html[Angular]
 |xref:5_angular.adoc[]
 |
 
