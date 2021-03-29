@@ -1,5 +1,6 @@
 = Projekt i implementacja systemów webowych
 Maciej Małecki <maciej.malecki@pwr.edu.pl>
+:icons: font
 
 Poniedziałek, 9:15
 
@@ -34,3 +35,9 @@ Część backendowa oraz bazodanowa powinna realizować wszystkie funkcjonalnoś
 . Projekt powinien budować się automatycznie (zarówno frontend jak i backend) włącznie z wykonywaniem wszystkich napisanych testów na środowisku CircleCI.
 . Źródła projektu powinny być umieszczone w repozytorium na portalu GitHub (dopuszczalne jest użycie repozytorium publicznego). Prowadzący powinien mieć dostęp do tego repozytorium.
 . Do projektu należy dołączyć szczegółową instrukcję (w postaci pliku README) opisującego sposób budowania i uruchamiania aplikacji.
+
+[IMPORTANT]
+.Ocena końcowa
+====
+Kompletna realizacja wyżej wymienionych punktów będzie skutkowała oceną bardzo dobrą dla wszystkich członków zespołu. Szerszy zakres projektu może skutkować podwyższeniem oceny.
+====
