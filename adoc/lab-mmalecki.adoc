@@ -4,6 +4,8 @@ Maciej Małecki <maciej.malecki@pwr.edu.pl>
 
 Poniedziałek, 9:15
 
+xref:index.adoc[Powrót do strony głównej]
+
 == Części projektowa
 
 === Założenia wstępne
