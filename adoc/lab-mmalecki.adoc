@@ -1,0 +1,35 @@
+= Projekt i implementacja systemów webowych
+
+Maciej Małecki <maciej.malecki@pwr.edu.pl>
+
+Poniedziałek, 9:15
+
+== Części projektowa
+
+=== Założenia wstępne
+
+W ramach zajęć laboratoryjny grupa studentów/studentek realizuje wspólnie projekt o dowolnej tematyce, który musi składać się z następujących elementów technicznych:
+
+. Klient webowy zrealizowany w architekturze SPA (Single Page App).
+. Część _backendowa_/serwerowa pełniąca następujące funkcje:
+.. serwowanie klienta SPA,
+.. realizacja funkcji serwerowej,
+.. wystawienie intefejsu (np. _RESTful_) dla klienta SPA.
+. Integracja klienta SPA oraz części serwerowej z wykorzystaniem wybranego protokołu (np. _RESTful_).
+. Mechanizm składowania oparty o dowolną bazę danych (SQLową lub No-SQL).
+. Integracja części serwerowej z wybraną bazą danych.
+
+=== Zakres/rozmiar projektu
+
+Klient webowy powinien składać się przynajmniej z dwóch kompletnych ekranów skojarzonych z dwoma ścieżkami URL (_routes_).
+Każdy z tych dwóch ekranów powinien być widokiem złożonym, tj zawierać elementy takie jak np. lista z funkcją sortowania i filtrowania i/lub formularz z walidacją danych wejściowych.
+
+Część backendowa oraz bazodanowa powinna realizować wszystkie funkcjonalności niezbędne do realizacji wyżej wymienionych ekranów.
+
+=== Wymagania niefunkcjonalne
+
+. Przynajmniej jeden z ekranów powinien być kompletnie przetestowany przy użyciu testów jednostkowych (frontendowych).
+. Funkcjonalność serwerowa odpowiadająca także jednemu z ekranów także powinna być przetestowana przy użyciu testów jednostkowych (np. JUnit dla Javy). Należy pamiętać o odpowiednim mockowaniem (np z wykorzystaniem biblioteki Mockito).
+. Projekt powinien budować się automatycznie (zarówno frontend jak i backend) włącznie z wykonywaniem wszystkich napisanych testów na środowisku CircleCI.
+. Źródła projektu powinny być umieszczone w repozytorium na portalu GitHub (dopuszczalne jest użycie repozytorium publicznego). Prowadzący powinien mieć dostęp do tego repozytorium.
+. Do projektu należy dołączyć szczegółową instrukcję (w postaci pliku README) opisującego sposób budowania i uruchamiania aplikacji.
