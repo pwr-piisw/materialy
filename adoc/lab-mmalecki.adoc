@@ -8,6 +8,12 @@ xref:index.adoc[Powrót do strony głównej]
 
 == Części projektowa
 
+[IMPORTANT]
+.Ocena końcowa
+====
+Kompletna realizacja niżej wymienionych punktów będzie skutkowała oceną bardzo dobrą dla wszystkich członków zespołu. Szerszy zakres projektu może skutkować podwyższeniem oceny.
+====
+
 === Założenia wstępne
 
 W ramach zajęć laboratoryjny grupa studentów/studentek realizuje wspólnie projekt o dowolnej tematyce, który musi składać się z następujących elementów technicznych:
@@ -36,8 +42,3 @@ Część backendowa oraz bazodanowa powinna realizować wszystkie funkcjonalnoś
 . Źródła projektu powinny być umieszczone w repozytorium na portalu GitHub (dopuszczalne jest użycie repozytorium publicznego). Prowadzący powinien mieć dostęp do tego repozytorium.
 . Do projektu należy dołączyć szczegółową instrukcję (w postaci pliku README) opisującego sposób budowania i uruchamiania aplikacji.
 
-[IMPORTANT]
-.Ocena końcowa
-====
-Kompletna realizacja wyżej wymienionych punktów będzie skutkowała oceną bardzo dobrą dla wszystkich członków zespołu. Szerszy zakres projektu może skutkować podwyższeniem oceny.
-====
