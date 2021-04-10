@@ -23,3 +23,7 @@
 
 == Programowanie reaktywne
 * https://rxjs-dev.firebaseapp.com/api
+* https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Global_Objects/Promise
+* https://github.com/Reactive-Extensions/RxJS
+* https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
+* https://rxmarbles.com
