@@ -35,9 +35,8 @@
 
 |6
 |2021-04-12
-|Programowanie reaktywne
-//|https://pwr-piisw.github.io/wyklady/06_reactive.html#/[Programowanie reaktywne]
-|xref:6_reactive.adoc[]
+|https://pwr-piisw.github.io/wyklady/06_reactive.html#/[Programowanie reaktywne]
+|//xref:6_reactive.adoc[]
 |
 
 |7
