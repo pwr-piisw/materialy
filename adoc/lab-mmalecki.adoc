@@ -14,6 +14,11 @@ xref:index.adoc[Powrót do strony głównej]
 Kompletna realizacja niżej wymienionych punktów będzie skutkowała oceną bardzo dobrą dla wszystkich członków zespołu. Szerszy zakres projektu może skutkować podwyższeniem oceny.
 ====
 
+=== Zgłaszanie grup i tematów projektowych
+* Studenci powinni podzielić się w 3-4 osobowe grupy, realizujące projekt wspólnie.
+* Najpóźniej w dniu 2021-04-19 jeden z członków grupy powinien zgłosić prowadzącemu (na Gitterze) listę członków/członkiń zespołu, nazwę kodową zespołu oraz temat projektu i opis projektu.
+* Opis projektu powinien zawierać nazwę, cel, stos technologiczny aplikacji oraz zakres, który będzie zrealizowany i zaprezentowany na każdym z trzech spotkań: 2021-05-17, 2021-05-31, 2021-06-14.
+
 === Założenia wstępne
 
 W ramach zajęć laboratoryjny grupa studentów/studentek realizuje wspólnie projekt o dowolnej tematyce, który musi składać się z następujących elementów technicznych:
