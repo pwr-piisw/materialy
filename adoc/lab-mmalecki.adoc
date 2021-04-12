@@ -18,6 +18,7 @@ Kompletna realizacja niżej wymienionych punktów będzie skutkowała oceną bar
 * Studenci powinni podzielić się w 3-4 osobowe grupy, realizujące projekt wspólnie.
 * Najpóźniej w dniu 2021-04-19 jeden z członków grupy powinien zgłosić prowadzącemu (na Gitterze) listę członków/członkiń zespołu, nazwę kodową zespołu oraz temat projektu i opis projektu.
 * Opis projektu powinien zawierać nazwę, cel, stos technologiczny aplikacji oraz zakres, który będzie zrealizowany i zaprezentowany na każdym z trzech spotkań: 2021-05-17, 2021-05-31, 2021-06-14.
+* Opis projektu najlepiej wykonać w pliku README.md repozytorium, założonego dla potrzeb projektu.
 
 === Założenia wstępne
 

@@ -41,8 +41,8 @@ include::_konsultacje.adoc[]
 * Szczegółowe zasady dotyczące pracy z kodem podczas fazy projektowej:
 ** Na zajęciach 7-mych studenci tworzą 3--4 osobowe grupy projektowe, w ramach których realizować będą projekt.
 ** Każda grupa projektowa powinna zgłosić prowadzącemu temat projektu na 7-mych zajęciach. Temat może być zgłoszony z listy umieszczonej na końcu tego dokumentu, może być to także własny projekt pod warunkiem przedstawienia adekwatnego opisu.
-** Każdy zespół projektowy zobowiązany jest do utworzenia prywatnego repozytorium projektowego na portalu GitHub. Prowadzącemu zajęcia należy nadać prawa zapisu i odczytu do tego repozytorium.
-** Wszyscy członkowie zespołu zobowiązani są do wprowadzania zmian bezpośrednio do prywatnego repozytorium zespołu.
+** Każdy zespół projektowy zobowiązany jest do utworzenia repozytorium projektowego na portalu GitHub. Prowadzącemu zajęcia należy nadać prawa zapisu i odczytu do tego repozytorium.
+** Wszyscy członkowie zespołu zobowiązani są do wprowadzania zmian bezpośrednio do repozytorium zespołu.
 ** Każdy członek zespołu zobowiązany jest utrzymywać repozytorium w stanie “zielonym” - CI po zmianach powinno być zielone, w przypadku wystąpienia błędów należy je niezwłocznie usuwać.
 ** Podczas oddawania danego etapu zadania prowadzący sprawdza stan CI - niestabilne CI może być przyczyną niezaliczenia etapu.
 ** Zmiany w repozytorium (kodzie aplikacji) powinny być odpowiednio i czytelnie komentowane (ang. `commit message`).
