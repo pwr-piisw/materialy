@@ -17,13 +17,13 @@
 
 |3
 |2021-03-15
-|https://github.com/pwr-piisw/wyklady/blob/master/03-backend.pdf[Backend]
+|https://github.com/pwr-piisw/wyklady/raw/master/03-backend.pdf[Backend]
 |
 |
 
 |4
 |2021-03-22
-|https://github.com/pwr-piisw/wyklady/blob/master/04-wyklad-orm.pdf[Mapowanie obiektowo-relacyjne]
+|https://github.com/pwr-piisw/wyklady/raw/master/04-wyklad-orm.pdf[Mapowanie obiektowo-relacyjne]
 |
 |
 
@@ -42,7 +42,7 @@
 
 |7
 |2021-04-19
-|Cloud computing
+|https://github.com/pwr-piisw/wyklady/raw/master/07_cloud.pptx[Cloud computing]
 |xref:7_cloud.adoc[]
 |Kolokwium 1.footnote:covid[W przypadku zajęć zdalnych (pandemia) będą obowiązywać inne zasady (ogłoszone na wykładzie).]
 
