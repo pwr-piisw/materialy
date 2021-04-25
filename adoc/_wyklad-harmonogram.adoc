@@ -48,8 +48,7 @@
 
 |8
 |2021-04-26
-|Testowanie automatyczne frontendów
-//|https://pwr-piisw.github.io/wyklady/08_frontend-testing.html#/[Testowanie aplikacji webowych]
+|https://pwr-piisw.github.io/wyklady/08_frontend-testing.html#/[Testowanie aplikacji webowych]
 |
 |Kolokwium 2.footnote:covid[]
 |===
