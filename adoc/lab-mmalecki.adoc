@@ -20,6 +20,68 @@ Kompletna realizacja niżej wymienionych punktów będzie skutkowała oceną bar
 * Opis projektu powinien zawierać nazwę, cel, stos technologiczny aplikacji oraz zakres, który będzie zrealizowany i zaprezentowany na każdym z trzech spotkań: 2021-05-17, 2021-05-31, 2021-06-14.
 * Opis projektu najlepiej wykonać w pliku README.md repozytorium, założonego dla potrzeb projektu.
 
+=== Plan oddawania projektów
+
+[cols="1,3,2,2,2"]
+|===
+|Lp.|Projekt/Grupa|Etap 1 (17.05.2021)|Etap 2|Etap 3
+
+|1
+|Angularowi Paralitycy
+|9:15-9:25
+|
+|
+
+|2
+|The Undertakers
+|9:25-9:35
+|
+|
+
+|3
+|Learning Cards
+|9:35-9:45
+|
+|
+
+|4
+|RI
+|9:55-10:05
+|
+|
+
+|5
+|Muzykant
+|10:05-10:15
+|
+|
+
+|6
+|WJJ
+|10:15-10:25
+|
+|
+
+|7
+|DB
+|10:25-10:35
+|
+|
+
+|8
+|UM
+|10:35-10:45
+|
+|
+
+|9
+|KSM
+|zal.
+|zal.
+|zal.
+
+|===
+
 === Założenia wstępne
 
 W ramach zajęć laboratoryjny grupa studentów/studentek realizuje wspólnie projekt o dowolnej tematyce, który musi składać się z następujących elementów technicznych:
