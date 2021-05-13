@@ -1,6 +1,8 @@
 = Projekt i implementacja systemów webowych
 Maciej Małecki <maciej.malecki@pwr.edu.pl>
 :icons: font
+:toc: left
+:toc-title: Spis treści
 
 Poniedziałek, 9:15
 
