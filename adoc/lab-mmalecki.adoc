@@ -31,49 +31,49 @@ Kompletna realizacja niżej wymienionych punktów będzie skutkowała oceną bar
 |1
 |Angularowi Paralitycy
 |9:15 -- 9:25
-|
+|9:15 -- 9:25
 |
 
 |2
 |The Undertakers
 |9:25 -- 9:35
-|
+|9:25 -- 9:35
 |
 
 |3
 |Learning Cards
 |9:35 -- 9:45
-|
+|9:40 -- 9:50
 |
 
 |4
 |RI
 |9:45 -- 9:55
-|
+|9:50 -- 10:00
 |
 
 |5
 |Muzykant
 |10:00 -- 10:10
-|
+|10:05 -- 10:15
 |
 
 |6
 |WJJ
 |10:10 -- 10:20
-|
-|
+|zal.
+|zal.
 
 |7
 |Bands
 |10:20 -- 10:30
-|
+|10:15 -- 10:25
 |
 
 |8
 |SpAF
 |10:30 -- 10:40
-|
+|10:30 -- 10:40
 |
 
 |9
