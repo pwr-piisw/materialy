@@ -1,5 +1,11 @@
 = Projekty do wyboru
 
+Do zrobienia:
+
+* Zasady zaliczenia części projektowej.
+* Dokument z designem - trzeba zdefiniować zawartość.
+* Testy automatyczne - proponuję określić zakres, ale nie więcej niż jeden moduł systemu musi być przetestowany (frontend / backend).
+
 == System sprzedaży biletów kinowych
 Aplikacja umożliwia rezerwację biletów na seans kinowy oraz weryfikację ważności biletów.
 
