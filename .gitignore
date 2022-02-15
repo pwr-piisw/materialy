@@ -2,7 +2,10 @@
 *.log
 *.out
 *.pdf
+*.fls
+*.synctex.gz
 !Angular cheat sheet.pdf
 out/
 out-adoc/
 .idea/
+tex/lista_1.fdb_latexmk
