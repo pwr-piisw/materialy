@@ -8,4 +8,4 @@
 out/
 out-adoc/
 .idea/
-tex/lista_1.fdb_latexmk
+*.fdb_latexmk
