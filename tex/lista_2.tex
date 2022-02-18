@@ -51,13 +51,6 @@
 
             Podpowiedź: koło można wyświetlić korzystając z~odpowiednio ostylowanego elementu \texttt{div}.
 
-            \begin{figure}[p]
-                \centering
-                \includegraphics[width=0.8\textwidth]{lista-2-1}
-                \caption{Dwie fazy działania kodu z~zadania~\ref{exc:dom-model}.}
-                \label{fig:dom-model}
-            \end{figure}
-
             \item\label{exc:forms}
             (6 pkt) Formularze i~walidacja.
 
@@ -85,6 +78,35 @@
 
             Wskazówka: pakiet Bootstrap posiada wsparcie dla walidacji (patrz rysunek~\ref{fig:forms-error}) - pod warunkiem wykorzystywania możliwości, jakie daje HTML5 w~tym zakresie.
 
+            \item\label{exc:notepad}
+            (7 pkt) Notatnik i~składowanie danych
+            Napisz prostą aplikację notatnika (widoczną na rysunku~\ref{fig:notepad}).
+            Aplikacja powinna posiadać następujące funkcje:
+            \begin{enumerate}
+                \item Tworzenie nowej notatki składającej się z~tytułu i~treści. Tytuł jest obowiązkowy. Po kliknięciu przycisku ``Save'' notatka powinna zostać dodana do listy po lewej stronie a~formularz powinien zostać wyczyszczony.
+                \item Wybór i~edycja zapisanej notatki. Po kliknięciu na jedną z~notatek na liście, zawartość notatki powinna wyświetlić się w~formularzu. Możliwa jest edycja zarówno tytułu jak i~treści - po kliknięciu ``Save'' notatka powinna być zaktualizowana, pola formularza powinny zostać wyczyszczone, nowy tytuł notatki powinien zostać odzwierciedlony na liście notatek.
+                \item Notatki powinny zapisywać się w~pamięci ``localStorage'' przeglądarki - po wciśnięciu CTRL-F5 i~przeładowaniu strony, notatki powinny wciąż być widoczne.
+            \end{enumerate}
+
+            Przy ocenie tego zadania będziemy zwracać uwagę na styl:
+            \begin{itemize}
+                \item Należy zadbać o~możliwie dobrą separację logiki aplikacji i~warstwy wizualnej.
+                \item Użyj obiektowości języka JavaScript tam, gdzie jest to potrzebne i~uzasadnione.
+                \item Odseparuj stan lokalny aplikacji (lista notatek) oraz mechanizm utrwalania (localStorage) - niech twoim jedynym modelem nie będzie wartość z~localStorage!
+                \item Zwróć uwagę, że tytuł notatki nie musi być unikalny - zaproponuj sposób jednoznacznej identyfikacji notatki.
+            \end{itemize}
+
+            Zwróć uwagę na subtelną różnicę stanu aplikacji: aplikacja bezpośrednio po uruchomieniu prezentuje pusty formularz, który po zapisaniu zawsze skutkuje utworzeniem nowej notatki. Gdy jednak notatkę wybierzemy z~listy, zapis skutkuje aktualizacją już istniejącej notatki.
+
+            Nie wolno używać dodatkowych bibliotek takich jak jQuery, Angular, React, itp. Wolno natomiast użyć Bootstrapa do stylowania widoku aplikacji.
+
+            \begin{figure}[p]
+                \centering
+                \includegraphics[width=0.8\textwidth]{lista-2-1}
+                \caption{Dwie fazy działania kodu z~zadania~\ref{exc:dom-model}.}
+                \label{fig:dom-model}
+            \end{figure}
+
             \begin{figure}[p]
                 \centering
                 \includegraphics[width=0.9\textwidth]{lista-2-2}
@@ -97,6 +119,13 @@
                 \includegraphics[width=0.75\textwidth]{lista-2-2-blad}
                 \caption{Przykład działania walidacji formularza z~zadania~\ref{exc:forms}.}
                 \label{fig:forms-error}
+            \end{figure}
+
+            \begin{figure}[p]
+                \centering
+                \includegraphics[width=0.75\textwidth]{lista-2-3}
+                \caption{Aplikacja notatnika z~zadania~\ref{exc:notepad}.}
+                \label{fig:notepad}
             \end{figure}
 
     \end{enumerate}
