@@ -61,13 +61,14 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 === Listy zadań
 
 [horizontal]
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_0.pdf[Lista 0]:: 2021-03-01
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_1.pdf[Lista 1]:: 2021-03-08 (zaliczenie do 2021-03-14)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_2.pdf[Lista 2]:: 2021-03-15 (zaliczenie do 2021-03-21)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: 2021-03-22 (zaliczenie do 2021-03-28)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: 2021-03-29 (zaliczenie do 2021-04-11)
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: 2021-04-12 (zaliczenie do 2021-04-18)
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_1.pdf[Lista 1]:: HTML i CSS
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_2.pdf[Lista 2]:: JavaScript
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: tbd
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: tbd
+https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: Angular
 
+=== Harmonogram zajęć
+include::_lab-harmonogram.adoc[]
 
 === Bibliografia
 

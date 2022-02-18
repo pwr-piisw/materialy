@@ -5,7 +5,7 @@
 \usepackage{hyperref}
 \usepackage{skull}
 
-\title{PIISW, W08, IO, 2020/2021, semestr letni\\Lista zadań nr 5}
+\title{PIISW, W-4, IO, 2021/2022, semestr letni\\Lista zadań nr 5: Angular}
 \author{Maciej Małecki\\ \small maciej.malecki@pwr.edu.pl}
 
 \begin{document}
@@ -29,7 +29,7 @@
 
     \section*{Zadania}
     \begin{enumerate}
-	
+
 		\item
 			(4 pkt) W~aplikacji Bookstore zaimplementowano widok listy książek (dostępny pod linkiem \texttt{ui/books}). Zaimplementuj widok szczegółowy dla książki.
 			\begin{enumerate}
@@ -38,7 +38,7 @@
 				\item Dodaj routing \texttt{ui/books/\{bookId\}}, dane do widoku \texttt{book-details} wczytaj przy pomocy resolvera.
 				\item Dodaj nawigację między widokiem listy oraz szczegółów przy pomocy linków (strona nie może się przeładowywać).
 			\end{enumerate}
-			
+
 		\item
 			(4 pkt) Rozszerz widok szczegółowy book-details o~listę recenzji. Wyświetl wszystkie recenzje jedna pod drugą. Każda recenzja powinna zawierać autora, tytuł, treść oraz ocenę.
 			\begin{enumerate}
@@ -47,7 +47,7 @@
 				\item Zintegruj wczytywanie recenzji z~widokiem widoku szczegółowego.
 				\item $\skull$(dodatkowo 2 pkt) Wczytywanie recenzji zrealizuj niezależnie od resolvera dla widoku \texttt{book-details}. Wyświetl ikonę spinnera na czas wyświetlania. Dodaj sztucznie opóźnienie do backendu, aby spinner wyświetlił się przez chwilę.
 			\end{enumerate}
-			
+
 		\item
 			(4 pkt) Dodaj możliwość dodawania nowej recenzji.
 			\begin{enumerate}
@@ -56,9 +56,9 @@
 				\item Rozszerz serwis dla recenzji o funkcjonalność zapisu recenzji.
 				\item Po zatwierdzeniu recenzji (przy użyciu np. przycisku ``Save'') recenzja powinna być zapisana w~backendzie, a~widok szczegółowy odpowiednio zaktualizowany.
 			\end{enumerate}
-			
+
 		\item
-			(4 pkt) Zaimplementuj usuwanie książki. 
+			(4 pkt) Zaimplementuj usuwanie książki.
 			\begin{enumerate}
 				\item Usunięcie książki powinno nastąpić po kliknięciu w~dedykowany przycisk na widoku szczegółowym.
 				\item Wyświetl modalne okienko z~potwierdzeniem, zanim usuniesz książkę.

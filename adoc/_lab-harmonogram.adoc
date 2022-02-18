@@ -15,27 +15,27 @@
 |3
 |2021-03-14
 |Javascript.
-|Lista 1
+|Zaliczenie listy 1
 
 |4
 |2021-03-21
 |Tworzenie backendu - serwisy Restful, testowanie backendu.
-|Lista 2
+|Zaliczenie listy 2
 
 |5
 |2021-03-28
 |Tworzenie backendu - data persistence, mockowanie danych.
-|Lista 3
+|Zaliczenie listy 3
 
 |6
 |2021-04-04
 |Tworzenie aplikacji Angular, testowanie kodu frontendu.
-|Lista 4
+|Zaliczenie listy 4
 
 |7
 |2021-04-11
 |Podział na grupy projektowe, wybór i akceptacja tematu projektu.
-|Lista 5
+|Zaliczenie listy 5
 
 |8
 |2021-04-25
