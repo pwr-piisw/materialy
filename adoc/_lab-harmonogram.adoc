@@ -3,77 +3,77 @@
 |Lp|Data|Temat|Termin zaliczenia
 
 |1
-|2021-02-28
+|2022-02-28
 |Zajęcia organizacyjne. Konfiguracja środowiska roboczego.
 |
 
 |2
-|2021-03-07
+|2022-03-07
 |HTML i CSS.
 |
 
 |3
-|2021-03-14
+|2022-03-14
 |Javascript.
 |Zaliczenie listy 1
 
 |4
-|2021-03-21
+|2022-03-21
 |Tworzenie backendu - serwisy Restful, testowanie backendu.
 |Zaliczenie listy 2
 
 |5
-|2021-03-28
+|2022-03-28
 |Tworzenie backendu - data persistence, mockowanie danych.
 |Zaliczenie listy 3
 
 |6
-|2021-04-04
+|2022-04-04
 |Tworzenie aplikacji Angular, testowanie kodu frontendu.
 |Zaliczenie listy 4
 
 |7
-|2021-04-11
+|2022-04-11
 |Podział na grupy projektowe, wybór i akceptacja tematu projektu.
 |Zaliczenie listy 5
 
 |8
-|2021-04-25
+|2022-04-25
 |Projekt -- frontend
 |
 
 |9
-|2021-05-09
+|2022-05-09
 |Projekt -- frontend
 |
 
 |10
-|2021-05-16
+|2022-05-16
 |Projekt -- frontend
 |Zaliczenie części frontendowej
 
 |11
-|2021-05-23
+|2022-05-23
 |Projekt -- backend i integracja
 |
 
 |12
-|2021-05-30
+|2022-05-30
 |Projekt -- backend i integracja
 |Zaliczenie części backendowej.
 
 |13
-|2021-06-06
+|2022-06-06
 |Projekt -- data persistence
 |
 
 |14
-|2021-06-13
+|2022-06-13
 |Projekt -- data persistence
 |Zaliczenie całości projektu.
 
 |15
-|2021-06-20
+|2022-06-20
 |Zaliczenie końcowe. Wystawienie ocen.
 |Zaliczenie -- 2-gi termin.
 |===
