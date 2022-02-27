@@ -61,11 +61,14 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 === Listy zadań
 
 [horizontal]
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_1.pdf[Lista 1]:: HTML i CSS
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_2.pdf[Lista 2]:: JavaScript
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: tbd
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: tbd
-https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: Angular
+https://github.com/pwr-piisw/materialy/releases/download/2022.02.18/lista_1.pdf[Lista 1]:: HTML i CSS
+https://github.com/pwr-piisw/materialy/releases/download/2022.02.18/lista_2.pdf[Lista 2]:: JavaScript
+Lista 3:: tbd (Backend/Springboot)
+Lista 4:: tbd (JPA)
+Lista 5:: tbc (Angular)
+// https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: tbd
+// https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: tbd
+// https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: Angular
 
 === Harmonogram zajęć
 include::_lab-harmonogram.adoc[]
