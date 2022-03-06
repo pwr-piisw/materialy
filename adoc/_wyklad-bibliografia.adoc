@@ -1,6 +1,7 @@
 == HTML & CSS
 * https://www.w3schools.com/cssref/
 * https://www.w3schools.com/cssref/trysel.asp
+* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 == Javascript
 * Douglas Crockford. _JavaScript: The Good Parts._
