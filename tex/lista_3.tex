@@ -35,11 +35,11 @@
         \label{fig:cqrs-diagram}
     \end{figure}
     \section*{Oceny}
-    \begin{tabular}{|l|c|c|c|c|c|c|}
+    \begin{tabular}{|l|c|c|c|c|c|c|c|}
         \hline
-        Punkty: & $<9$ & $9-10$ & $11-12$ & $13-14$ & $15-16$ & $17-18$\\
+        Punkty: & $<9$ & $9-10$ & $11-12$ & $13-14$ & $15-16$ & $17-18$ & $19-20$\\
         \hline
-        Ocena: & $2,0$ & $3,0$ & $3,5$ & $4,0$ & $4,5$ & $5,0$\\
+        Ocena: & $2,0$ & $3,0$ & $3,5$ & $4,0$ & $4,5$ & $5,0$ & $5,5$\\
         \hline
     \end{tabular}
 
@@ -54,11 +54,9 @@
                 \item wykorzysta bazę danych \texttt{H2} 
                 \item dane z bazy danych będą dostępne pod adresem host:port/h2-console
                 \item wystawi REST API do tworzenia obiektu typu Order
-                \item wystawi REST API do dodawania obiektów typu Product (wraz z ilością) do danego Order
-                \item wystawi REST API do aktualizacji obiektów typu Delivery dla danego Order
+                \item wystawi REST API do aktualizacji statusu dostawy (Created, PickedUp, Delivered) dla danego Order
                 \item definicja REST będzie możliwa do wyświetlenia z poziomu przeglądarki za pomocą host:port/swagger-ui/index.html
                 \item encja \texttt{Order} powinna zawierać informacje o kliencie, zamówionych produktach oraz dostawie (patrz rysunek~\ref{fig:cud-model}.)
-                \item ma oddzielone warstwy dla Order, Product, Delivery
                 \item ma odpowiednie pakiety wewnątrz warstwy: REST API, serwisową, dostępu do bazy danych
             \end{enumerate}
 
@@ -80,20 +78,17 @@
 
         \item\label{exc:cqrs_sync}
             (3 pkt) Synchronizacja danych pomiędzy Order Service a OrderHistory Service.\\
-            \begin{enumerate}
-                \item Po utworzeniu obiektu typu Order przez Order Service, dane w OrderHistory Service powinny zostać wzbogacone o ten obiekt (synchronizacja). 
-                Do tego celu należy użyć REST API udostępnionego przez OrderHistory Service
-                \item dedykowany 
-                \item 
-            \end{enumerate}
+            Zarówno po utworzeniu obiektu typu Order jak i zmianie statusu jego dostawy przez Order Service, dane w OrderHistory Service powinny zostać wzbogacone o te zmiany (synchronizacja). 
+            Do tego celu użyj REST API udostępnionego przez OrderHistory Service.
         \item\label{exc:openapi}
             (4 pkt) Open API.\\
             Aplikacja OrderHistory Service powinna udostępniać plik Open API (.json lub .yaml), który posłuży Order Service do wygenerowania kodu potrzebnego do połączenia poprzez REST API z OrderHistory Service\\
-            \textbf{Wskazówka:} Należy zacząć od wygenerowania pliku z definicją Open API (\url{https://springdoc.org/}). Następnie odpowiednio skorzystać z mavenowego pluginu: \texttt{openapi-generator-maven-plugin}. Wygenerowany kod powinien znaleść się w katalogu target.
+            \textbf{Wskazówka:} Zacznij od wygenerowania pliku z definicją Open API (\url{https://springdoc.org/}). Następnie odpowiednio skorzystaj z mavenowego pluginu: \texttt{openapi-generator-maven-plugin}. Wygenerowany kod powinien znaleść się w katalogu target.
         \item\label{exc:openapi}
-        $\skull$(3 pkt) Restful REST.\\
-            tbd
-\end{enumerate}
+        $\skull$(2 pkt) RESTful API i paginacja.\\
+            Rozszerz działanie REST API w OrderHistory Service o metodę wyszukującą zamówienia wraz z możliwością pagingu.\\ 
+            \textbf{Wskazówka:} Skorzystaj ze Spring HATEOAS
+    \end{enumerate}
     \begin{figure}[p]
         \centering
         \includegraphics[width=0.9\textwidth]{cud_model.png}
@@ -102,7 +97,7 @@
     \end{figure}  
     \begin{figure}[p]
         \centering
-        \includegraphics[width=0.35\textwidth]{read-model.png}
+        \includegraphics[width=0.5\textwidth]{read-model.png}
         \caption{Model danych dla zadania~\ref{exc:order_history_service}.}
         \label{fig:read-model}
     \end{figure}  
