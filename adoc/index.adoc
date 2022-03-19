@@ -63,7 +63,7 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 [horizontal]
 https://github.com/pwr-piisw/materialy/releases/download/2022.03.06/lista_1.pdf[Lista 1]:: HTML i CSS
 https://github.com/pwr-piisw/materialy/releases/download/2022.03.06/lista_2.pdf[Lista 2]:: JavaScript
-Lista 3:: tbd (Backend/Springboot)
+https://github.com/pwr-piisw/materialy/releases/download/2022.03.19/lista_3.pdf[Lista 3]:: (Backend/Springboot)
 Lista 4:: tbd (JPA)
 Lista 5:: tbc (Angular)
 // https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: tbd
