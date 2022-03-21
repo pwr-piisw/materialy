@@ -72,7 +72,7 @@
                 \item dane z bazy danych będą dostępne pod adresem host:port/h2-console,
                 \item encja \texttt{OrderHistory} powinna zawierać informacje o kliencie, dostawie oraz zamówionych produktach (nazwy po przecinku w jednym polu) wraz z sumaryczną wartością zamówienia (patrz rysunek~\ref{fig:read-model}.),
                 \item ma oddzielone pakiety: REST API, serwisową, dostępu do bazy danych,
-                \item wystawi REST API do tworzenia obiektu typu \texttt{OrderHistory} oraz odczytu danych tego typu (GET - na podstawie id oraz wszystkich zapisanych),
+                \item wystawi REST API do tworzenia obiektu typu \texttt{OrderHistory}, aktualizacji jego statusu dostawy oraz odczytu danych tego typu (GET - na podstawie id oraz wszystkich zapisanych),
                 \item definicja REST będzie możliwa do wyświetlenia za pomocą host:port/swagger-ui/index.html,
                 \item strona swagger-ui/index.html grupuje operacje (metody do odczytu oddzielnie od tych do tworzenia, patrz ~\ref{fig:swagger-orders-gr} oraz ~\ref{fig:swagger-sync-gr}),
                 \item logika zawarta w serwisie jest pokryta testami jednostkowymi (\texttt{JUnit}, \texttt{Mockito}).
