@@ -1,0 +1,54 @@
+@startuml
+skinparam linetype polyline
+
+class Server {
+   name : String
+   ip : String
+}
+
+class Event {
+   time : LocalDateTime
+   duration : Integer
+   threadId : String
+   userId : String
+   description : String
+   analysisRequired : Boolean
+}
+
+class ExceptionEvent {
+   exceptionName : String
+   occuranceClass : String
+   occuranceMethod : String
+   occuranceLine : Integer
+}
+
+class RequestEvent {
+   method : HttpMethod
+}
+
+class SqlEvent {
+   sqlQuery : String
+}
+
+class Comment {
+   content : String
+}
+
+class Follower {
+   userId : String
+   subscriptionDate : LocalDateTime
+}
+
+
+
+Event "0..*" - "1..*" Server : occured on >
+
+Event <|-- RequestEvent
+Event <|-- SqlEvent
+Event <|-- ExceptionEvent
+
+Event "0..*" - "1..*" Comment
+Comment "0..*" - "..*" Follower
+
+@enduml
+
