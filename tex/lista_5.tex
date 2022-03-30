@@ -72,11 +72,15 @@
 				\end{enumerate}
 				Błędne pola powinny być podświetlone na czerwono.
 
+				\item W~serwisie \texttt{BooksService} zaimplementuj metodę \texttt{saveBook} i~zintegruj ją z~odpowiednim endpointem w~backendzie.
+
+				Przykład URL endpointu: PUT \href{http://localhost:3000/api/books/1}{http://localhost:3000/api/books/1}.
+
 				\item Zaimplementuj przycisk "Save".
 
 				Przycisk ten powinien być nieaktywny w~przypadku wystąpienia jakiegokolwiek błędu walidacji a~także wtedy, gdy zawartość formularza edycyjnego nie została jeszcze przez użytkownika zmieniona.
 
-				Przycisk po naciśnięciu powinien spowodować zapis zmodyfikowanej książki oraz przekierowanie na widok listy książek.
+				Przycisk po naciśnięciu powinien spowodować zapis zmodyfikowanej książki z~użyciem w.w. endpointu oraz przekierowanie na widok listy książek.
 				Zmiana powinna być widoczna na liście książek.
 
 				\item Zaimplementuj przycisk "Cancel".
@@ -90,9 +94,11 @@
 			(4 pkt) Rozszerz widok szczegółowy o~listę recenzji. Wyświetl wszystkie recenzje jedna pod drugą. Każda recenzja powinna zawierać autora, tytuł, treść oraz ocenę.
 			\begin{enumerate}
 				\item Wyświetlanie recenzji powinno być zrealizowane przy użyciu osobnego komponentu (jeden komponent na recenzję, użyj \texttt{*ngFor} do wyświetlenia listy).
+
 				\item Zaimplementuj osobny serwis do wczytywania recenzji (należy w~tym celu stworzyć osobny resolver).
 
-				Zauważ, że \texttt{json-server} pozwala na odpytanie o~recenzje dla danej książki z~wykorzystaniem \href{http://localhost:3000/api/reviews?forBookId=1}{http://localhost:3000/api/reviews?forBookId=1}.
+				Zauważ, że \texttt{json-server} pozwala na odpytanie o~recenzje dla danej książki z~wykorzystaniem \href{http://localhost:3000/api/reviews?forBook=1}{http://localhost:3000/api/reviews?forBook=1}.
+
 				\item Zintegruj wczytywanie recenzji z~widokiem widoku szczegółowego.
 			\end{enumerate}
 
@@ -103,12 +109,12 @@
 
 				Komponent edycyjny można zrealizować zarówno jako osobny widok lub też pokazać go na widoku \texttt{book-details}.
 				\item Wszystkie pola powinny być obowiązkowe - zaimplementuj odpowiednią walidację.
-				\item Rozszerz serwis dla recenzji o funkcjonalność zapisu recenzji.
+				\item Rozszerz serwis dla recenzji o~funkcjonalność zapisu recenzji.
 				\item Po zatwierdzeniu recenzji (przy użyciu np. przycisku ``Save'') recenzja powinna być zapisana w~backendzie, a~widok szczegółowy odpowiednio zaktualizowany.
 			\end{enumerate}
 
 		\item
-			$\skull$(6 pkt) Wyszukiwanie pełnotekstowe książek.
+			$\skull$(4 pkt) Wyszukiwanie pełnotekstowe książek.
 
 			Na widoku listy książek umieść pole edycyjne pozwalające na wpisywanie tekstu.
 			Po wpisaniu co najmniej dwóch znaków lista książek powinna zostać zawężona do tych, które zawierają w~swoich polach podany tekst.
@@ -116,11 +122,12 @@
 			\begin{enumerate}
 				\item Zauważ, że \texttt{json-server} pozwala na wykonania wyszukania pełnotekstowego dzięki następującemu zapytaniu: \href{http://localhost:3000/api/books?q=query}{http://localhost:3000/api/books?q=query}.
 
-				\item Wyszukiwanie powinno zostać wykonane niezwłocznie po zakończeniu pisania przez użytkownika.
+				\item Wyszukiwanie powinno zostać wykonane niezwłocznie po zakończeniu pisania przez użytkownika (brak konieczności naciśnięcia przycisku lub klawisza ENTER).
 
 				\item Lista książek powinna zostać zaktualizowana (odpowiednio zawężona) bez przeładowywania strony.
-			\end{enumerate}
 
+				\item Zapewnij, że zapytania do serwera nie są wysyłane częściej niż raz na 200ms.
+			\end{enumerate}
     \end{enumerate}
 \end{document}
 
