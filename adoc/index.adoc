@@ -65,10 +65,7 @@ https://github.com/pwr-piisw/materialy/releases/download/2022.03.06/lista_1.pdf[
 https://github.com/pwr-piisw/materialy/releases/download/2022.03.06/lista_2.pdf[Lista 2]:: JavaScript
 https://github.com/pwr-piisw/materialy/releases/download/2022.03.21/lista_3.pdf[Lista 3]:: Backend/Springboot
 https://github.com/pwr-piisw/materialy/releases/download/2022.03.27/lista_4.pdf[Lista 4]:: JPA
-Lista 5:: tbc (Angular)
-// https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_3.pdf[Lista 3]:: tbd
-// https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_4.pdf[Lista 4]:: tbd
-// https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/lista_5.pdf[Lista 5]:: Angular
+https://github.com/pwr-piisw/materialy/releases/download/2022.04.01/lista_5.pdf[Lista 5]:: Angular
 
 === Harmonogram zajęć
 include::_lab-harmonogram.adoc[]
