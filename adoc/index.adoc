@@ -19,10 +19,7 @@ t.b.d.
 
 === Komunikacja
 
-Publiczny kanał Gitter dla grupy wykładowej 2021/2022 (prosimy o dołączenie):
-image:https://badges.gitter.im/pwr-piisw/wyklad2022.svg[link=http://gitter.im/pwr-piisw/wyklad2022?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge]
-
-Wykłady będą prowadzone z wykorzystaniem platformy Zoom. Zaproszenia na wykłady będą wysyłane z ok. tygodniowym wyprzedzeniem.
+t.b.d.
 
 === Harmonogram
 
