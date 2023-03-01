@@ -7,11 +7,13 @@
 
 Strona z materiałami dydaktycznymi dotyczącymi wykładu oraz zajęć laboratoryjnych.
 
-*Semestr letni 2021/2022*
+*Semestr letni 2022/2023*
 
 == Konsultacje
 
-include::_konsultacje.adoc[]
+t.b.d.
+
+// include::_konsultacje.adoc[]
 
 == Wykład
 
@@ -24,7 +26,7 @@ Wykłady będą prowadzone z wykorzystaniem platformy Zoom. Zaproszenia na wykł
 
 === Harmonogram
 
-Wykłady odbywają się we wtorki o godzinie 7:30.
+Wykłady odbywają się w czwartki o godzinie 13:15.
 
 TIP: Linki do slajdów będą pojawiać się najpóźniej w dniu wykładu.
 
@@ -44,17 +46,17 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 |===
 |Godzina|Prowadzący|Informacje
 
-|Poniedziałek, 7:30-9:00
+|Czwartek, 15:15-16:55
 |Maciej Małecki
-|image:http://badges.gitter.im/pwr-piisw/lab2022-mmalecki.svg[link=https://gitter.im/pwr-piisw/lab2022-mmalecki?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
+|
 
-|Poniedziałek, 9:15-11:00
-|Marcin Nowak
-|image:http://badges.gitter.im/pwr-piisw/lab2022mnowak.svg[link=https://gitter.im/pwr-piisw/lab2022mnowak?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
+|Czwartek, 17:05-18:50
+|Kamil Kompała
+|
 
-|Poniedziałek, 7:30-9:00
-|Szymon Jaśniak
-|image:http://badges.gitter.im/pwr-piisw/lab2022sjasniak.svg[link=https://gitter.im/pwr-piisw/lab2022sjasniak?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge] - chat dla całej grupy
+|Czwartek, 18:55-20:35
+|Dominika Janus
+|
 
 |===
 

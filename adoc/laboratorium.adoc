@@ -13,7 +13,8 @@ Zajęcia laboratoryjne są prowadzone bez przerwy przez 1,5 godziny.
 
 == Konsultacje
 
-include::_konsultacje.adoc[]
+t.b.d.
+// include::_konsultacje.adoc[]
 
 == Ocena
 

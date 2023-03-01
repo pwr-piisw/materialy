@@ -4,51 +4,51 @@
 |Lp.|Data|Prezentacja|Konspekt|Uwagi
 
 |1
-|2022-03-01
+|2023-03-02
 |https://pwr-piisw.github.io/wyklady/01_wprowadzenie_html_css.html[Wprowadzenie, standardy HTML5 oraz CSS3]
 |
 |
 
 |2
-|2022-03-08
+|2023-03-09
 |https://pwr-piisw.github.io/wyklady/02_javascript_typescript.html[Języki JavaScript i TypeScript]
 |
 |
 
 |3
-|2022-03-15
+|2023-03-16
 |https://github.com/pwr-piisw/wyklady/raw/master/03-backend.pdf[Backend]
 |
 |
 
 |4
-|2022-03-22
+|2023-03-23
 |https://github.com/pwr-piisw/wyklady/raw/master/04-wyklad-orm.pdf[Mapowanie obiektowo-relacyjne]
 |
 |
 
 |5
-|2022-03-29
+|2023-03-30
 |https://pwr-piisw.github.io/wyklady/05_angular.html[Angular]
 |xref:5_angular.adoc[]
 |
 
 |6
-|2022-04-05
+|2023-04-13
 |https://pwr-piisw.github.io/wyklady/06_reactive.html#/[Programowanie reaktywne]
 //|xref:6_reactive.adoc[]
 |
 |
 
 |7
-|2022-04-12
+|2023-04-20
 |https://github.com/pwr-piisw/wyklady/raw/master/07_cloud.pptx[Cloud computing]
 |xref:7_cloud.adoc[]
-|Kolokwium 1.footnote:covid[W przypadku zajęć zdalnych (pandemia) będą obowiązywać inne zasady (ogłoszone na wykładzie).]
+|Kolokwium 1
 
 |8
-|2021-04-26
+|2023-04-27
 |https://pwr-piisw.github.io/wyklady/08_frontend-testing.html#/[Testowanie aplikacji webowych]
 |
-|Kolokwium 2.footnote:covid[]
+|Kolokwium 2
 |===
