@@ -3,77 +3,77 @@
 |Lp|Data|Temat|Termin zaliczenia
 
 |1
-|2023-03-02
+|2024-02-29
 |Zajęcia organizacyjne. Konfiguracja środowiska roboczego.
 |
 
 |2
-|2023-03-09
+|2024-03-07
 |HTML i CSS.
 |
 
 |3
-|2023-03-16
+|2024-03-14
 |Javascript.
 |Zaliczenie listy 1
 
 |4
-|2023-03-23
+|2024-03-21
 |Tworzenie backendu - serwisy Restful, testowanie backendu.
 |Zaliczenie listy 2
 
 |5
-|2023-03-30
+|2024-04-4
 |Tworzenie backendu - data persistence, mockowanie danych.
 |Zaliczenie listy 3
 
 |6
-|2023-04-13
+|2024-04-11
 |Tworzenie aplikacji Angular, testowanie kodu frontendu.
 |Zaliczenie listy 4
 
 |7
-|2023-04-20
+|2024-04-18
 |Podział na grupy projektowe, wybór i akceptacja tematu projektu.
 |Zaliczenie listy 5
 
 |8
-|2023-04-27
+|2024-04-25
 |Projekt -- frontend
 |
 
 |9
-|2023-05-11
+|2024-05-09
 |Projekt -- frontend
 |
 
 |10
-|2023-05-18
+|2024-05-16
 |Projekt -- frontend
 |Zaliczenie części frontendowej
 
 |11
-|2023-05-25
+|2024-05-23
 |Projekt -- backend i integracja
 |
 
 |12
-|2023-06-01
+|2024-06-06
 |Projekt -- backend i integracja
 |Zaliczenie części backendowej.
 
 |13
-|2023-06-15
+|2024-06-13
 |Projekt -- data persistence
 |
 
 |14
-|2023-06-22
+|2024-06-20
 |Projekt -- data persistence
 |Zaliczenie całości projektu.
 
 |15
-|2023-06-26
+|2024-06-24
 |Zaliczenie końcowe. Wystawienie ocen.
 |Zaliczenie -- 2-gi termin.
 |===
