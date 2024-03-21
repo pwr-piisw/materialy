@@ -44,7 +44,7 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 |Godzina|Prowadzący|Informacje
 
 |Czwartek, 15:15-16:55
-|Maciej Małecki
+|Kacper Drzymała
 |
 
 |Czwartek, 17:05-18:50
