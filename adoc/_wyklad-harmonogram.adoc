@@ -17,13 +17,13 @@
 
 |3
 |2024-03-14
-|
+|https://pwr-piisw.github.io/wyklady/03-backend.html[Backendy systemów webowych]
 |
 |
 
 |4
 |2024-03-21
-|
+|https://pwr-piisw.github.io/wyklady/04-persistence[Mapowanie obiektowo-relacyjne]
 |
 |
 
