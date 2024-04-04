@@ -11,9 +11,7 @@ Strona z materiałami dydaktycznymi dotyczącymi wykładu oraz zajęć laborator
 
 == Konsultacje
 
-t.b.d.
-
-// include::_konsultacje.adoc[]
+include::_konsultacje.adoc[]
 
 == Wykład
 
