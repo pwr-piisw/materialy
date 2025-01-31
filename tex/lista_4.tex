@@ -22,7 +22,7 @@
         \end{itemize}
 
         \begin{enumerate}
-            \item Utwórz nowe prywatne repozytorium GitHub oraz zaimportuj do niego zawartość repozytorium \url{https://github.com/pwr-piisw/lista4-starter}. Projekt zawarty w~repozytorium został zbudowany w~oparciu o~Spring Boot i~wykorzystuje JPA oraz bazę danych H2.
+            \item Utwórz nowe prywatne repozytorium GitHub oraz zaimportuj do niego zawartość repozytorium \url{https://github.com/pwr-piisw/lista4-starter-2025}. Projekt zawarty w~repozytorium został zbudowany w~oparciu o~Spring Boot i~wykorzystuje JPA oraz bazę danych H2.
             \item Zapoznaj się ze strukturą klas zaprezentowanych na diagramie z~rysunku~\ref{fig:class-diagram}. Klasy zdarzeń (relacja dziedziczenia) zostały zmapowane z~wykorzystaniem metody \texttt{TABLE\_PER\_CLASS}.
             \item Zapoznaj się z~mapowaniem relacji \texttt{Event} $\rightarrow$ \texttt{Server}.
             \item Baza danych tworzona jest w~momencie startu aplikacji/testów automatycznie z pliku \texttt{schema.sql}
@@ -101,7 +101,7 @@
         \item
             (3 pkt) Zmpodyfikuj testy w taki sposób, by zwracały mocki zamiast rzeczywistego obiektu. Wykorzystaj w~tym celu \texttt{ServerService.findByName} oraz \texttt{ServerRepository}.
 
-            \textbf{Wskazówka}: zadeklaruj w teście ServerRepository jako  \texttt{@MockBean}, skorzystaj np.: z~\texttt{Mockito\allowbreak .when}, \texttt{Mockito\allowbreak .eq}, \texttt{Mockito\allowbreak .thenReturn}.
+            \textbf{Wskazówka}: zadeklaruj w teście ServerRepository jako  \texttt{@MockitoBean}, skorzystaj np.: z~\texttt{Mockito\allowbreak .when}, \texttt{Mockito\allowbreak .eq}, \texttt{Mockito\allowbreak .thenReturn}.
 
         \item
          (4 pkt) Rozszerz model danych o nowe klasy \emph{Comment} i \emph{Follower}. Zgodnie z podanym niżej diagramem
