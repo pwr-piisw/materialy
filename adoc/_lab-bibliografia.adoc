@@ -1,2 +1,0 @@
-* https://pwr-piisw.github.io/materialy/Angular%20cheat%20sheet.pdf[Angular cheat sheet.pdf]
-* https://github.com/pwr-piisw/materialy/releases/download/{release-tag}/GIT-cheat-sheet.pdf[GIT cheat sheet.pdf]
