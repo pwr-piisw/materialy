@@ -26,7 +26,7 @@
     \section*{Oceny}
     \begin{tabular}{|l|c|c|c|c|c|c|}
         \hline
-        Punkty: & $<9$ & $9-10$ & $11-12$ & $13-14$ & $15-16$ & $17-18$\\
+        Punkty: & $<12$ & $12-13$ & $14-16$ & $17-19$ & $20-22$ & $23-24$\\
         \hline
         Ocena:  & $2,0$ & $3,0$ & $3,5$ & $4,0$ & $4,5$ & $5,0$\\
         \hline
@@ -35,7 +35,7 @@
     \section*{Zadania}
         \begin{enumerate}
         \item\label{exc:dom-model}
-            (5 pkt) Obsługa zdarzeń modelu DOM.
+            (7 pkt) Obsługa zdarzeń modelu DOM.
 
             Utwórz dokument HTML z~osadzonymi stylami oraz z~osadzonym kodem JavaScript, który wyświetli dwa elementy: kontrolkę suwaka oraz koło.
 
@@ -44,6 +44,9 @@
                 \item Średnica koła powinna być zawsze równa wartości ustawionej na suwaku (w~pikselach).
                 \item Średnica koła powinna zmieniać się dynamicznie podczas przesuwania suwaka.
                 \item Wewnątrz koła, w~jego geometrycznym środku powinna być zawsze wyświetlana jego średnica.
+                \item Dodaj animacje, aby efekt był płynniejszy.
+                \item Wprowadź efekt kolorystyczny, większe koło powinno być jaśniejsze.
+                \item Obsłuż sterowanie klawiaturą, strzałka w lewo i prawo powinny odpowiednio zmniejszać i zwiększać koło.
             \end{enumerate}
 
 
@@ -52,7 +55,7 @@
             Podpowiedź: koło można wyświetlić korzystając z~odpowiednio ostylowanego elementu \texttt{div}.
 
             \item\label{exc:forms}
-            (6 pkt) Formularze i~walidacja.
+            (7 pkt) Formularze i~walidacja.
 
             W~celu realizacji tego zadania użyj biblioteki styli Bootstrap: \url{https://getbootstrap.com/}.
             Użyj pliku \texttt{bootstrap.min.css} zawartego w~dystrybucji i~zintegruj go z~plikiem \texttt{index.html} będącym rozwiązaniem tego zadania.
@@ -74,18 +77,20 @@
                 \item Naciśnięcie przycisku Clear powinno wyczyścić zawartość formularza.
                 \item Wyliczana wartość objętości powinna być zaprezentowana w~metrach sześciennych oraz zaokrąglona do dwóch miejsc po przecinku.
                 \item Użyj elementów semantycznych takich jak \texttt{form}, \texttt{table}, \texttt{input}, \texttt{label} oraz typów wejść jak \texttt{number}, \texttt{submit} oraz \texttt{reset}.
+                \item Dodaj pole wyszukiwania umożliwiające filtrowanie paczek według tekstu.
             \end{enumerate}
 
             Wskazówka: pakiet Bootstrap posiada wsparcie dla walidacji (patrz rysunek~\ref{fig:forms-error}) - pod warunkiem wykorzystywania możliwości, jakie daje HTML5 w~tym zakresie.
 
             \item\label{exc:notepad}
-            (7 pkt) Notatnik i~składowanie danych
+            (10 pkt) Notatnik i~składowanie danych
             Napisz prostą aplikację notatnika (widoczną na rysunku~\ref{fig:notepad}).
             Aplikacja powinna posiadać następujące funkcje:
             \begin{enumerate}
                 \item Tworzenie nowej notatki składającej się z~tytułu i~treści. Tytuł jest obowiązkowy. Po kliknięciu przycisku ``Save'' notatka powinna zostać dodana do listy po lewej stronie a~formularz powinien zostać wyczyszczony.
                 \item Wybór i~edycja zapisanej notatki. Po kliknięciu na jedną z~notatek na liście, zawartość notatki powinna wyświetlić się w~formularzu. Możliwa jest edycja zarówno tytułu jak i~treści - po kliknięciu ``Save'' notatka powinna być zaktualizowana, pola formularza powinny zostać wyczyszczone, nowy tytuł notatki powinien zostać odzwierciedlony na liście notatek.
                 \item Notatki powinny zapisywać się w~pamięci ``localStorage'' przeglądarki - po wciśnięciu CTRL-F5 i~przeładowaniu strony, notatki powinny wciąż być widoczne.
+                \item Dodaj funkcjonalność umożliwiającą eksport i import notatek w formacie JSON.
             \end{enumerate}
 
             Przy ocenie tego zadania będziemy zwracać uwagę na styl:
@@ -94,6 +99,7 @@
                 \item Użyj obiektowości języka JavaScript tam, gdzie jest to potrzebne i~uzasadnione.
                 \item Odseparuj stan lokalny aplikacji (lista notatek) oraz mechanizm utrwalania (localStorage) - niech twoim jedynym modelem nie będzie wartość z~localStorage!
                 \item Zwróć uwagę, że tytuł notatki nie musi być unikalny - zaproponuj sposób jednoznacznej identyfikacji notatki.
+                \item Upewnij się, że interfejs korzysta z Bootstrapa lub podobnego frameworka CSS.
             \end{itemize}
 
             Zwróć uwagę na subtelną różnicę stanu aplikacji: aplikacja bezpośrednio po uruchomieniu prezentuje pusty formularz, który po zapisaniu zawsze skutkuje utworzeniem nowej notatki. Gdy jednak notatkę wybierzemy z~listy, zapis skutkuje aktualizacją już istniejącej notatki.
