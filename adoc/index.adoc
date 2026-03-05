@@ -43,15 +43,15 @@ xref:laboratorium.adoc[Zasady zaliczenia zajęć]
 
 |Czwartek, 15:15-16:55
 |Kacper Drzymała
-|
+|s.107b D2
 
 |Czwartek, 17:05-18:50
 |Kamil Kompała
-|
+|s.127a D2
 
 |Czwartek, 18:55-20:35
-|Dominika Janus
-|
+|Tomasz Wasielewski
+|s.127a D2
 
 |===
 
